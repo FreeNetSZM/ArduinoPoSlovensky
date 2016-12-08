@@ -1,8 +1,7 @@
 <!DOCTYPE html>
-<html>
-  <head>
-
-  <title>Google Gauge - ThingSpeak</title>
+<html lang="sk">  
+  <head>    
+    <title>Posledné merania</title>
 
     <style type="text/css">      
       #container { height: 100%; width: 100%; display: table; }
@@ -24,8 +23,7 @@
       // global variables
       var chart, charts, data;
       // variable for the data point
-      var teplota, vlhkost, tlak, lux;
-      var datum;
+      var teplota, vlhkost, tlak, lux, datum;
       // load the google gauge visualization
       google.load('visualization', '1', {packages:['gauge']});
       google.setOnLoadCallback(loadData);
@@ -39,10 +37,8 @@
 
       // load the data
       function loadData() {
-
         // get the data from thingspeak
         $.getJSON('https://api.thingspeak.com/channels/' + channel_id + '/feed/last.json?api_key=' + api_key, function(data) {
-
           // get the data point
           teplota = data.field1;
           vlhkost = data.field2;
@@ -59,66 +55,46 @@
 
       // initialize the chart
       function initChartTeplota() {
-
         data = new google.visualization.DataTable();
         data.addColumn('string', 'Label');
         data.addColumn('number', 'Value');
         data.addRows(1);
-
         chart = new google.visualization.Gauge(document.getElementById('Teplota_chart_div'));
         options = {width: 230, height: 230, min: -10, max: 45, redFrom: 35, redTo: 45, yellowFrom: -10, yellowTo: 0, minorTicks: 5};
-
         displayData(teplota, "Teplota");
-
-
       }
 
       function initChartVlhkost() {
-
         data = new google.visualization.DataTable();
         data.addColumn('string', 'Label');
         data.addColumn('number', 'Value');
         data.addRows(1);
-
         chart = new google.visualization.Gauge(document.getElementById('Vlhkost_chart_div'));
         options = {width: 230, height: 230, min: 20, max: 80, greenFrom: 40, greenTo: 60, minorTicks: 10};
-
         displayData(vlhkost, "Vlhkosť");
-
-
       }
 
-        function initChartTlak() {
-
+      function initChartTlak() {
         data = new google.visualization.DataTable();
         data.addColumn('string', 'Label');
         data.addColumn('number', 'Value');
-      data.addRows(1);
-
-      chart = new google.visualization.Gauge(document.getElementById('Tlak_chart_div'));
-      options = {width: 230, height: 230, min: 980, max: 1050, redFrom: 980, redTo: 1000, yellowFrom: 1030, yellowTo: 1050, greenFrom: 1000, greenTo: 1030, minorTicks: 5};
-
-      displayData(tlak, "Tlak");
-
-
-    }
+        data.addRows(1);
+        chart = new google.visualization.Gauge(document.getElementById('Tlak_chart_div'));
+        options = {width: 230, height: 230, min: 980, max: 1050, redFrom: 980, redTo: 1000, yellowFrom: 1030, yellowTo: 1050, greenFrom: 1000, greenTo: 1030, minorTicks: 5};
+        displayData(tlak, "Tlak");
+      }
 
       function initChartLux() {
-
-      data = new google.visualization.DataTable();
-      data.addColumn('string', 'Label');
-      data.addColumn('number', 'Value');
-      data.addRows(1);
-
-      chart = new google.visualization.Gauge(document.getElementById('Lux_chart_div'));
-      options = {width: 230, height: 230, min: 0, max: 200, minorTicks: 5};
-
-      displayData(lux, "Lux");
-
-
-    }
-
-  </script>
+        data = new google.visualization.DataTable();
+        data.addColumn('string', 'Label');
+        data.addColumn('number', 'Value');
+        data.addRows(1);
+        chart = new google.visualization.Gauge(document.getElementById('Lux_chart_div'));
+        options = {width: 230, height: 230, min: 0, max: 200, minorTicks: 5};
+        displayData(lux, "Lux");
+      }
+      
+    </script>
 
   </head>
 
@@ -132,7 +108,6 @@
         <div id="Lux_chart_div"></div>
       </div>
     </div>
-
   </body>
 </html>
 
