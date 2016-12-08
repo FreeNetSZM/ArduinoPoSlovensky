@@ -1,1 +1,1 @@
-# ArduinoPoSlovensky
+# Arduino po slovensky
