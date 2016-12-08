@@ -40,7 +40,7 @@
       tlak = data.field3;
       lux = data.field4;
       datum = new Date(data.created_at);
-      document.getElementById("time").innerHTML = datum;
+      document.getElementById("Datum").innerHTML = datum;
       initChartTeplota();
       initChartVlhkost();
       initChartTlak();
@@ -114,7 +114,7 @@
   </head>
 
   <body>
-    <b><p id="time"></p></b>
+    <b><p id="Datum"></p></b>
     <table class="columns">
       <tr>
         <td><div id="Teplota_chart_div" style="height: 240px;"></div></td>
