@@ -1,0 +1,8 @@
+<Module>
+<ModulePrefs title=”Custom Gadget“/>
+<Content type=”html“>
+<![CDATA[
+<script src=YOUR SCRIPT HERE</script>
+]]>
+</Content>
+</Module>
