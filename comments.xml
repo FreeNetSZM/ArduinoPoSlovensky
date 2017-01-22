@@ -1,5 +1,5 @@
 <Module>
-<ModulePrefs title="Komentáret"/>            
+<ModulePrefs title="Komentáre"/>            
 <Content type="html">
 <![CDATA[
 <script src="https://apis.google.com/js/plusone.js"></script>
