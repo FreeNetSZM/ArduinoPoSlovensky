@@ -4,12 +4,15 @@
   </head>
 	
  <body>
-    <script>
-	var doc = document.querySelector('link[rel="import"]').import;
-	// Grab DOM from doc.html's document.
-	var text = doc.querySelector('div.store-detail-bd container util-clearfix');
-	document.body.appendChild(text.cloneNode(true));
-     </script>
+  <script>
+    var link = document.querySelector('link[rel="import"]');
+    var content = link.import;
+
+    // Grab DOM from warning.html's document.
+    var el = content.querySelector('.store-detail-bd container util-clearfix');
+
+    document.body.appendChild(el.cloneNode(true));
+  </script>
   </body>
 
 </html>
