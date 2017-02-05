@@ -1,6 +1,6 @@
 <html> 
   <head>
-    <link rel="import" href="index.html">
+    <link rel="import" href="index.html" async>
   </head>
 	
  <body>
@@ -11,7 +11,8 @@
     // Grab DOM from warning.html's document.
     var el = content.querySelector('.Teplota_chart_div');
 
-    document.body.appendChild(el));
+    document.body.appendChild(el.cloneNode(true)));
+
   </script>
   </body>
 
