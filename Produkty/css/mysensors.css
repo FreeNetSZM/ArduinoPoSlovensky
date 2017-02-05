@@ -54,13 +54,13 @@ body {
 
 @font-face {
 	font-family: kg_second_chances_solidRg;
-	src: url(./fonts/kgsecondchancessolid-webfont.woff) format('woff');
+	src: url(../Produkty//fonts/kgsecondchancessolid-webfont.woff) format('woff');
 }
 @font-face {
 	font-family: social-share-kit;
-	src: url(./fonts/social-share-kit.woff) format('woff');
+	src: url(../Produkty/fonts/social-share-kit.woff) format('woff');
 }
 @font-face {
 	font-family: Roboto Condensed;
-	src: url(./fonts/RobotoCondensed-Regular-webfont.woff) format('woff');
+	src: url(../Produkty/fonts/RobotoCondensed-Regular-webfont.woff) format('woff');
 }
