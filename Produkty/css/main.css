@@ -143,7 +143,7 @@
     outline: rgb(51, 51, 51) none 0px;
 }/*#DIV_6:before*/
 
-#DIV_7, #DIV_15 {
+#DIV_15 {
     box-sizing: border-box;
     color: rgb(51, 51, 51);
     height: 33px;
@@ -159,7 +159,7 @@
     font: normal normal normal normal 15px / 21.4286px "Roboto Condensed", Helvetica, Arial, sans-serif;
     outline: rgb(51, 51, 51) none 0px;
     padding: 5px;
-}/*#DIV_7, #DIV_15*/
+}/*#DIV_15*/
 
 #DIV_8 {
     box-sizing: border-box;
@@ -176,7 +176,7 @@
     outline: rgb(51, 51, 51) none 0px;
 }/*#DIV_8*/
 
-#SPAN_9, #SPAN_17 {
+#SPAN_17 {
     box-sizing: border-box;
     color: rgb(0, 128, 0);
     text-size-adjust: 100%;
@@ -185,9 +185,9 @@
     border: 0px none rgb(0, 128, 0);
     font: normal normal normal normal 15px / 21.4286px "Roboto Condensed", Helvetica, Arial, sans-serif;
     outline: rgb(0, 128, 0) none 0px;
-}/*#SPAN_9, #SPAN_17*/
+}/*#SPAN_17*/
 
-#A_10, #A_18 {
+#A_18 {
     box-sizing: border-box;
     color: rgb(255, 255, 255);
     float: right;
@@ -212,9 +212,9 @@
     margin: -4px 0px 0px;
     outline: rgb(255, 255, 255) none 0px;
     padding: 1px 5px;
-}/*#A_10, #A_18*/
+}/*#A_18*/
 
-#I_11, #I_19 {
+#I_19 {
     box-sizing: border-box;
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -231,9 +231,9 @@
     border: 0px none rgb(255, 255, 255);
     font: normal normal normal normal 14px / 14px 14px FontAwesome;
     outline: rgb(255, 255, 255) none 0px;
-}/*#I_11, #I_19*/
+}/*#I_19*/
 
-#I_11:before, #I_19:before {
+#I_19:before {
     box-sizing: border-box;
     color: rgb(255, 255, 255);
     content: '';
@@ -246,9 +246,9 @@
     border: 0px none rgb(255, 255, 255);
     font: normal normal normal normal 14px / 14px FontAwesome;
     outline: rgb(255, 255, 255) none 0px;
-}/*#I_11:before, #I_19:before*/
+}/* #I_19:before*/
 
-#I_12, #I_20 {
+#I_20 {
     box-sizing: border-box;
     color: rgb(255, 255, 255);
     cursor: pointer;
@@ -265,9 +265,9 @@
     border: 0px none rgb(255, 255, 255);
     font: normal normal normal normal 14px / 14px FontAwesome;
     outline: rgb(255, 255, 255) none 0px;
-}/*#I_12, #I_20*/
+}/*#I_20*/
 
-#I_12:before, #I_20:before {
+#I_20:before {
     box-sizing: border-box;
     color: rgb(255, 255, 255);
     content: '';
@@ -280,9 +280,9 @@
     border: 0px none rgb(255, 255, 255);
     font: normal normal normal normal 14px / 14px FontAwesome;
     outline: rgb(255, 255, 255) none 0px;
-}/*#I_12:before, #I_20:before*/
+}/*#I_20:before*/
 
-#A_13, #A_21 {
+#A_21 {
     box-sizing: border-box;
     color: rgb(51, 122, 183);
     text-decoration: none;
@@ -292,24 +292,7 @@
     border: 0px none rgb(51, 122, 183);
     font: normal normal normal normal 15px / 21.4286px "Roboto Condensed", Helvetica, Arial, sans-serif;
     outline: rgb(51, 122, 183) none 0px;
-}/*#A_13, #A_21*/
-
-#IMG_14 {
-    box-sizing: border-box;
-    color: rgb(51, 122, 183);
-    height: 20px;
-    max-width: 100%;
-    text-size-adjust: 100%;
-    vertical-align: middle;
-    white-space: nowrap;
-    width: 46px;
-    column-rule-color: rgb(51, 122, 183);
-    perspective-origin: 23px 10px;
-    transform-origin: 23px 10px;
-    border: 0px none rgb(51, 122, 183);
-    font: normal normal normal normal 15px / 21.4286px "Roboto Condensed", Helvetica, Arial, sans-serif;
-    outline: rgb(51, 122, 183) none 0px;
-}/*#IMG_14*/
+}/*#A_21*/
 
 #DIV_16 {
     box-sizing: border-box;
