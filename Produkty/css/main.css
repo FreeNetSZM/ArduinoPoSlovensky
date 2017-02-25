@@ -1,6 +1,6 @@
 @font-face {
-    font-family: "social-share-kit";
-    src: url("/ArduinoPoSlovensky/Produkty/fonts/social-share-kit.woff") format('woff');
+    font-family: "FontAwesome";
+    src: url("/ArduinoPoSlovensky/Produkty/fonts/fontawesome-webfont.woff") format('woff');
 }
 
 @font-face {
@@ -234,7 +234,7 @@
     transform-origin: 6.5px 7px;
     user-select: none;
     border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 14px "social-share-kit";
+    font: normal normal normal normal 14px / 14px 14px FontAwesome;
     outline: rgb(255, 255, 255) none 0px;
 }/*#I_11, #I_19*/
 
@@ -249,7 +249,7 @@
     column-rule-color: rgb(255, 255, 255);
     user-select: none;
     border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 14px "social-share-kit";
+    font: normal normal normal normal 14px / 14px FontAwesome;
     outline: rgb(255, 255, 255) none 0px;
 }/*#I_11:before, #I_19:before*/
 
@@ -268,7 +268,7 @@
     transform-origin: 2.5px 7px;
     user-select: none;
     border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 14px "social-share-kit";
+    font: normal normal normal normal 14px / 14px FontAwesome;
     outline: rgb(255, 255, 255) none 0px;
 }/*#I_12, #I_20*/
 
@@ -283,7 +283,7 @@
     column-rule-color: rgb(255, 255, 255);
     user-select: none;
     border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 14px "social-share-kit";
+    font: normal normal normal normal 14px / 14px FontAwesome;
     outline: rgb(255, 255, 255) none 0px;
 }/*#I_12:before, #I_20:before*/
 
