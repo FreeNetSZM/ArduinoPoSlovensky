@@ -126,7 +126,7 @@
     box-sizing: border-box;
     clear: both;
     color: rgb(51, 51, 51);
-    content: '"' '"';
+    content: ' ';
     display: table;
     text-size-adjust: 100%;
     column-rule-color: rgb(51, 51, 51);
