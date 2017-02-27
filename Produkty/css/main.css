@@ -13,6 +13,25 @@
     src: url("/ArduinoPoSlovensky/Produkty/fonts/RobotoCondensed-Regular-webfont.woff") format('woff');
 }
 
+#container { 
+  height: 100%; 
+  width: 100%; 
+  display: table; 
+}    
+
+#inner { 
+  vertical-align: middle; 
+  display: table-cell; 
+}    
+
+#banner_div { 
+  margin: 2px; 
+  padding: 2px; 
+  height: 140px; 
+  width: 480px; 
+  float:left; 
+}     
+
 #DIV_1 {
     bottom: 0px;
     box-shadow: rgb(170, 170, 170) 5px 5px 5px 0px;
