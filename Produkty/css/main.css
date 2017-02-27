@@ -29,7 +29,8 @@
   padding: 2px; 
   height: 140px; 
   float:left; 
-  max-width: 50%;
+  max-width: 100%;
+  min-width: 50%;
 }     
 
 #DIV_1 {
