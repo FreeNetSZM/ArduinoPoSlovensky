@@ -209,7 +209,7 @@
 #A_18 {
     box-sizing: border-box;
     color: rgb(255, 255, 255);
-    float: right;
+    /*float: right;*/
     cursor: pointer;
     display: inline-block;
     height: 25px;
