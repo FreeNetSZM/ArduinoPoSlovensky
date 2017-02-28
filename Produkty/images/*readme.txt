@@ -12,4 +12,9 @@ Diode
 <a href="http://s.click.aliexpress.com/e/72b2VJm" target="_parent">AliExpress.com Product - Free shiiping 100PCS 1N4007 4007 1A 1000V DO-41 Rectifier Diode</a>
 <a href="http://s.click.aliexpress.com/e/AqnY7YV" target="_parent">AliExpress.com Product - Free Shipping 100PCS IN5819 DO-41 1A 40V SCHOTTKY DIODE 1N5819</a>
 
+Transistors
+<a href="http://s.click.aliexpress.com/e/vj6YbIA" target="_parent">AliExpress.com Product - BC337 BC327 2N2222 2N2907 2N3904 2N3906 S8050 S8550 A1015 C1815 Transistor Assortment Kit 10value 200PCS,Transistors Box Pack</a>
+<a href="http://s.click.aliexpress.com/e/jUjQbAI" target="_parent">AliExpress.com Product - Free shipping 100pcs in-line triode transistor TO-92 0.6A 30V NPN 2N2222</a>
+<a href="http://s.click.aliexpress.com/e/R7ujmMf" target="_parent">AliExpress.com Product - F071-08 10PCS IRF540NPBF IRF540N IRF540 MOSFET MOSFT 100V 33A 44mOhm 47.3nC</a>
+<a href="http://s.click.aliexpress.com/e/nYvJyzB" target="_parent">AliExpress.com Product - Free shipping 5pcs mosfet transistor TO-220AB IRFZ44NPBF</a>
 
