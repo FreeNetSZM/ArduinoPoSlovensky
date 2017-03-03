@@ -108,8 +108,9 @@
     <script>
       $.getJSON('http://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=originalPrice,salePrice,discount&localCurrency=EUR&productId=32765699087', function(data) {
       var cena = data.originalPrice;
+      document.getElementById("cena").innerHTML = cena;
       });
-      document.getElementById("cena").innerHTML = cena; 
+       
     </script>
   </body>
 </html>
