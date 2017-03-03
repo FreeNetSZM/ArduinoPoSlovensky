@@ -3,8 +3,8 @@
   <head>         
     <meta charset="utf-8">      
     <link rel="stylesheet" href="/ArduinoPoSlovensky/Produkty/css/main.css">    
-    <title>Rezistory na AliExpresse
-    </title>
+    <title>Rezistory na AliExpresse</title>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
   </head>  
   
   <body>    
@@ -23,7 +23,7 @@
             </div>	     
             <div id="DIV_15">		       
               <div id="DIV_16">			         
-                <span id="SPAN_17">cca 1.52€ &nbsp</span>          
+                <span id="SPAN_17"><div id="32687413849"></div></span>          
                 <a href="http://s.click.aliexpress.com/e/byj2niU" target="_blank" id="A_18">          
                   <i id="I_19"></i> Kúp           
                   <i id="I_20"></i></a>		       
@@ -46,7 +46,7 @@
             </div>	     
             <div id="DIV_15">		       
               <div id="DIV_16">			         
-                <span id="SPAN_17">cca 3.22€ &nbsp</span>          
+                <span id="SPAN_17"><div id="32766348385"></div></span>          
                 <a href="http://s.click.aliexpress.com/e/fu3Fiaa" target="_blank" id="A_18">          
                   <i id="I_19"></i> Kúp           
                   <i id="I_20"></i></a>		       
@@ -69,7 +69,7 @@
             </div>     
             <div id="DIV_15">		       
               <div id="DIV_16">			         
-                <span id="SPAN_17">cca 2.01€ &nbsp</span>          
+                <span id="SPAN_17"><div id="32346769802"></div></span>          
                 <a href="http://s.click.aliexpress.com/e/aAIme6q" target="_blank" id="A_18">          
                   <i id="I_19"></i> Kúp           
                   <i id="I_20"></i></a>		       
@@ -92,7 +92,7 @@
             </div> 
             <div id="DIV_15">		       
               <div id="DIV_16">			         
-                <span id="SPAN_17">cca 4.79€ &nbsp</span>          
+                <span id="SPAN_17"><div id="32545010595"></div></span>          
                 <a href="http://s.click.aliexpress.com/e/QRzzjAA" target="_blank" id="A_18">          
                   <i id="I_19"></i> Kúp           
                   <i id="I_20"></i></a>		       
@@ -104,6 +104,34 @@
         </div>
         
       </div>    
-    </div>       
+    </div>  
+    
+        <script>
+            $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=originalPrice,salePrice,discount&localCurrency=EUR&productId=32687413849', function(data) {
+      var zlava = data.result.discount;
+      if (zlava == "0%") {var cena = data.result.salePrice + "&nbsp&nbsp";}
+        else {var cena = "aktuálna zľava: " + zlava + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
+      document.getElementById("32687413849").innerHTML = cena;
+      });
+            $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=originalPrice,salePrice,discount&localCurrency=EUR&productId=32766348385', function(data) {
+      var zlava = data.result.discount;
+      if (zlava == "0%") {var cena = data.result.salePrice + "&nbsp&nbsp";}
+        else {var cena = "aktuálna zľava: " + zlava + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
+      document.getElementById("32766348385").innerHTML = cena;
+      });
+            $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=originalPrice,salePrice,discount&localCurrency=EUR&productId=32346769802', function(data) {
+      var zlava = data.result.discount;
+      if (zlava == "0%") {var cena = data.result.salePrice + "&nbsp&nbsp";}
+        else {var cena = "aktuálna zľava: " + zlava + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
+      document.getElementById("32346769802").innerHTML = cena;
+      });
+            $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=originalPrice,salePrice,discount&localCurrency=EUR&productId=32545010595', function(data) {
+      var zlava = data.result.discount;
+      if (zlava == "0%") {var cena = data.result.salePrice + "&nbsp&nbsp";}
+        else {var cena = "aktuálna zľava: " + zlava + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
+      document.getElementById("32545010595").innerHTML = cena;
+      });
+       
+    </script>
   </body>
 </html>
