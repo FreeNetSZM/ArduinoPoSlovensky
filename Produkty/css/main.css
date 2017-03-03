@@ -198,6 +198,7 @@
 #SPAN_17 {
     box-sizing: border-box;
     color: rgb(0, 128, 0);
+    float: left;
     text-size-adjust: 100%;
     white-space: nowrap;
     column-rule-color: rgb(0, 128, 0);
