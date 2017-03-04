@@ -1,12 +1,10 @@
 function ProduktID(id) {
-  var div = document.createElement("div");
-  div.innerHTML =     
-    '<div id="DIV_2">\n' +		       
+div = '<div id="DIV_2">\n' +		       
       '<img src="/ArduinoPoSlovensky/Produkty/images/UNO-R3-developent-board-MEGA328P-Without-USB-Cable.jpg" id="IMG_3" alt='' />\n' +	     
     '</div>\n' +	     
     '<div id="DIV_4">\n' +		       
       '<h5 id="H5_5">Arduino UNO R3 bez USB káblu </h5>Toto je to Arduino UNO R3, ktoré potrebujete pre svoje projekty.\n' +   	     
-    '</div>\n' +	         
+    '</div>\n' ;        
 
   document.getElementById(id).innerHTML = div;
   
