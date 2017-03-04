@@ -26,7 +26,7 @@
           '<div id="banner_div">\n' +
           '<div id="DIV_1">\n' +
           '<div id="DIV_2">\n' +
-          '<img id="IMG_3, IMG_' + id +'"/>\n' +
+          '<img id="IMG_3" class="IMG_' + id +'"/>\n' +
           '</div>\n' +
           '<div id="DIV_4">\n' +
 
@@ -54,7 +54,7 @@
           $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,imageUrl&localCurrency=EUR&productId=' +id, function(data) {
              if (data.result.discount == "0%") {document.getElementById(id).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
                else {document.getElementById(id).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
-            document.getElementById("IMG_3").src = data.result.imageUrl;
+            document.getElementByClassName("IMG_" + id).src = data.result.imageUrl;
              });  
       } 
     </script>   
