@@ -1,4 +1,4 @@
-  function ProduktID(id, nadpis, popis) {
+function ProduktID(id, nadpis, popis) {
   var div = document.createElement(div);
   div.innerHTML =
       '<div id="banner_div">\n' +
@@ -23,10 +23,10 @@
       '</div>\n' +
       '</div>\n' +
       '</div>\n';
-     document.getElementById("inner").appendChild(div);
-      $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,imageUrl&localCurrency=EUR&productId=' +id, function(data) {
-         if (data.result.discount == "0%") {document.getElementById(id).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
-           else {document.getElementById(id).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
-        document.getElementById("IMG_" + id).src = data.result.imageUrl;
-         });  
-  } 
+  document.getElementById("inner").appendChild(div);
+  $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,imageUrl&localCurrency=EUR&productId=' +id, function(data) {
+     if (data.result.discount == "0%") {document.getElementById(id).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
+       else {document.getElementById(id).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
+     document.getElementById("IMG_" + id).src = data.result.imageUrl;
+  });  
+} 
