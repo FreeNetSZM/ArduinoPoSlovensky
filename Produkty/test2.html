@@ -9,7 +9,11 @@
   </head>  
   
   <body> 
-   
+     <div id="container">      
+      <div id="inner">
+      </div>    
+    </div> 
+    
     <script>
       ProduktID(32765699087);
       ProduktID(32657861317);
@@ -19,8 +23,7 @@
       function ProduktID(id) {
       var div = document.createElement(div);
       div.innerHTML =
-          '<div id="container">\n' +
-          '<div id="inner">\n' +
+          '<div id="banner_div">\n' +
           '<div id="DIV_1">\n' +
           '<div id="DIV_2">\n' +
           '<img src="/ArduinoPoSlovensky/Produkty/images/UNO-R3-developent-board-MEGA328P-With-USB-Cable.jpg" id="IMG_3"/>\n' +
@@ -44,10 +47,9 @@
           '<img src="/ArduinoPoSlovensky/Produkty/images/ali.png" target="_blank" id="IMG_22"/></a>\n' +
           '</div>\n' +
           '</div>\n' +
-          '</div>\n' +
           '</div>\n';
 
-         document.body.appendChild(div);
+         document.getElementById("inner").appendChild(div);
       } 
     </script>   
          
