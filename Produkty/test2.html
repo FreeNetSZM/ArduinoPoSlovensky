@@ -24,6 +24,8 @@
       function ProduktID(id) {
       var div = document.createElement(div id="banner_div");
       div.innerHTML =
+          '<div id="container">\n' +
+          '<div id="inner">\n' +
           '<div id="DIV_1">\n' +
           '<div id="DIV_2">\n' +
           '<img src="/ArduinoPoSlovensky/Produkty/images/UNO-R3-developent-board-MEGA328P-With-USB-Cable.jpg" id="IMG_3"/>\n' +
@@ -46,9 +48,11 @@
           '<a href="http://s.click.aliexpress.com/e/vR7maIuzV" id="A_21">\n' +
           '<img src="/ArduinoPoSlovensky/Produkty/images/ali.png" target="_blank" id="IMG_22"/></a>\n' +
           '</div>\n' +
+          '</div>\n' +
+          '</div>\n' +
           '</div>\n';
 
-         document.getElementById("inner").appendChild(div);
+         document.body.appendChild(div);
       } 
     </script>   
          
