@@ -1,4 +1,4 @@
-function ProduktID(id, nadpis, popis) {
+function ProduktID(id, nadpis, popis, link) {
   var div = document.createElement(div);
   div.innerHTML =
       '<div id="banner_div">\n' +
@@ -14,7 +14,7 @@ function ProduktID(id, nadpis, popis) {
       '<div id="DIV_15">\n' +
       '<div id="DIV_16">\n' +
       '<span id="SPAN_17"><div id="' + id + '"></div></span>\n' +
-      '<a href="http://s.click.aliexpress.com/e/uF6UrZR" target="_blank" id="A_18">\n' +
+      '<a href="' + link +'" target="_blank" id="A_18">\n' +
       '<i id="I_19"></i> Kúp\n' +
       '<i id="I_20"></i></a>\n' +
       '</div>\n' +
@@ -24,7 +24,7 @@ function ProduktID(id, nadpis, popis) {
       '</div>\n' +
       '</div>\n';
   document.getElementById("inner").appendChild(div);
-  $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,imageUrl&localCurrency=EUR&productId=' +id, function(data) {
+  $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,imageUrl,productUrl&localCurrency=EUR&productId=' +id, function(data) {
      if (data.result.discount == "0%") {document.getElementById(id).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
        else {document.getElementById(id).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
      document.getElementById("IMG_" + id).src = data.result.imageUrl;
