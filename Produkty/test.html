@@ -115,7 +115,7 @@
       document.getElementById("cena4").innerHTML = cenaID(32768431306);
     
       function cenaID(id) {
-        var cena;
+        var cena = "cena: ";
         $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=originalPrice,salePrice,discount&localCurrency=EUR&productId=32765699087', function(data) {
         var zlava = data.result.discount;
         if (zlava == "0%") {cena = data.result.salePrice + "&nbsp&nbsp";}
