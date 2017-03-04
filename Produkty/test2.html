@@ -5,59 +5,18 @@
     <link rel="stylesheet" href="/ArduinoPoSlovensky/Produkty/css/test.css">    
     <title>Arduino na AliExpresse</title>
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
-
-  </head>  
-  
+    <script type='text/javascript' src='/ArduinoPoSlovensky/Produkty/css/test.js'></script>
+  </head>    
   <body> 
      <div id="container">      
       <div id="inner">
       </div>    
-    </div> 
-    
+    </div>     
     <script>
       ProduktID(32765699087, "Arduino UNO R3 bez USB káblu", "Toto je to Arduino UNO R3, ktoré potrebujete pre svoje projekty.");
       ProduktID(32657861317, "Arduino UNO R3 s USB káblom", "Arduino UNO R3 s čipom Atmega 328p v DIP púzdre dodávaný s USB káblom ");
       ProduktID(32664780300, "Arduino UNO R3 SMD bez USB káblu", "Arduino UNO R3 s čipom Atmega 328p tentokrát v SMD verzii");
       ProduktID(32768431306, "Arduino UNO R3 SMD s USB káblom", "Arduino UNO R3 s čipom Atmega 328p v SMD verzii vrátane USB kábla");
-      
-      function ProduktID(id, nadpis, popis) {
-      var div = document.createElement(div);
-      div.innerHTML =
-          '<div id="banner_div">\n' +
-          '<div id="DIV_1">\n' +
-          '<div id="DIV_2">\n' +
-          '<img class="IMG_3" id="IMG_' + id +'"/>\n' +
-          '</div>\n' +
-          '<div id="DIV_4">\n' +
-
-          '<h5 id="H5_5">' + nadpis + '</h5>' + popis + ' \n' +
-          '</div>\n' +
-          '<div id="DIV_6">\n' +
-          '</div>\n' +
-          '<div id="DIV_15">\n' +
-
-          '<div id="DIV_16">\n' +
-          '<span id="SPAN_17"><div id="' + id + '"></div></span>\n' +
-          '<a href="http://s.click.aliexpress.com/e/uF6UrZR" target="_blank" id="A_18">\n' +
-          '<i id="I_19"></i> Kúp\n' +
-          '<i id="I_20"></i></a>\n' +
-
-          '</div>\n' +
-          '<a href="http://s.click.aliexpress.com/e/vR7maIuzV" id="A_21">\n' +
-          '<img src="/ArduinoPoSlovensky/Produkty/images/ali.png" target="_blank" id="IMG_22"/></a>\n' +
-          '</div>\n' +
-          '</div>\n' +
-          '</div>\n';
-
-         document.getElementById("inner").appendChild(div);
-
-          $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,imageUrl&localCurrency=EUR&productId=' +id, function(data) {
-             if (data.result.discount == "0%") {document.getElementById(id).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
-               else {document.getElementById(id).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
-            document.getElementById("IMG_" + id).src = data.result.imageUrl;
-             });  
-      } 
-    </script>   
-         
+    </script>
   </body>
 </html>
