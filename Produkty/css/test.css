@@ -27,7 +27,7 @@
 #banner_div { 
   margin: 2px; 
   padding: 2px; 
-  height: 140px; 
+  height: 190px; 
   float:left; 
   width: 465px;
 }     
@@ -37,7 +37,7 @@
     box-shadow: rgb(170, 170, 170) 5px 5px 5px 0px;
     box-sizing: border-box;
     color: rgb(51, 51, 51);
-    height: 135px;
+    height: 185px;
     left: 0px;
     min-height: 102px;
     position: relative;
@@ -59,7 +59,7 @@
     box-sizing: border-box;
     color: rgb(51, 51, 51);
     float: left;
-    height: 100px;
+    height: 150px;
     text-size-adjust: 100%;
     width: 150px;
     column-rule-color: rgb(51, 51, 51);
@@ -92,7 +92,7 @@
 #DIV_4 {
     box-sizing: border-box;
     color: rgb(51, 51, 51);
-    height: 48px;
+    height: 100px;
     text-size-adjust: 100%;
     column-rule-color: rgb(51, 51, 51);
     perspective-origin: 227px 24px;
@@ -109,7 +109,7 @@
     box-sizing: border-box;
     color: rgb(51, 51, 51);
     cursor: text;
-    height: 17px;
+    height: 30px;
     left: 0px;
     position: relative;
     right: 0px;
