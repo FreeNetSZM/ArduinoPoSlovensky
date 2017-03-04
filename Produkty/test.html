@@ -5,6 +5,7 @@
     <link rel="stylesheet" href="/ArduinoPoSlovensky/Produkty/css/main.css">    
     <title>Arduino na AliExpresse</title>
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+
   </head>  
   
   <body> 
@@ -113,19 +114,17 @@
       document.getElementById("cena3").innerHTML = cenaID("32664780300");
       document.getElementById("cena4").innerHTML = cenaID(32768431306);
     
+      function cenaID(id) {
+        var cena;
+        $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=originalPrice,salePrice,discount&localCurrency=EUR&productId=' + id, function(data) {
+        var zlava = data.result.discount;
+        if (zlava == "0%") {cena = data.result.salePrice + "&nbsp&nbsp";}
+          else {cena = "aktuálna zľava: " + zlava + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
+        });
+        return cena;
+      }
     </script>
     
-    <script>
-    function cenaID(id) {
-      var cena;
-      $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=originalPrice,salePrice,discount&localCurrency=EUR&productId=' + id, function(data) {
-      var zlava = data.result.discount;
-      if (zlava == "0%") {cena = data.result.salePrice + "&nbsp&nbsp";}
-        else {cena = "aktuálna zľava: " + zlava + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
-      });
-      return cena;
-    }
-    </script>
-          
+         
   </body>
 </html>
