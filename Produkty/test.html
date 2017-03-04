@@ -114,7 +114,7 @@
       document.getElementById("cena3").innerHTML = cenaID("32664780300");
       
       $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=originalPrice,salePrice,discount&localCurrency=EUR&productId=32768431306', function(data) {
-      if (data.result.discount == "0%") {document.getElementById("cena4").innerHTML = = data.result.salePrice + "&nbsp&nbsp";}
+      if (data.result.discount == "0%") {document.getElementById("cena4").innerHTML = data.result.salePrice + "&nbsp&nbsp";}
         else {document.getElementById("cena4").innerHTML = "aktuálna zľava: " + zlava + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
       });   
     
