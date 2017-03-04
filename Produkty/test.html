@@ -23,7 +23,7 @@
             </div>	     
             <div id="DIV_15">		       
               <div id="DIV_16">			         
-                <span id="SPAN_17"><div id="cena1"></div></span>          
+                <span id="SPAN_17"><div id="32765699087"></div></span>          
                 <a href="http://s.click.aliexpress.com/e/FqnMjyv" target="_blank" id="A_18">          
                   <i id="I_19"></i> Kúp           
                   <i id="I_20"></i></a>		       
@@ -46,7 +46,7 @@
             </div>	     
             <div id="DIV_15">		       
               <div id="DIV_16">			         
-                <span id="SPAN_17"><div id="cena2"></div></span>          
+                <span id="SPAN_17"><div id="32657861317"></div></span>          
                 <a href="http://s.click.aliexpress.com/e/uF6UrZR" target="_blank" id="A_18">          
                   <i id="I_19"></i> Kúp           
                   <i id="I_20"></i></a>		       
@@ -69,7 +69,7 @@
             </div>     
             <div id="DIV_15">		       
               <div id="DIV_16">			         
-                <span id="SPAN_17"><div id="cena3"></div></span>          
+                <span id="SPAN_17"><div id="32664780300"></div></span>          
                 <a href="http://s.click.aliexpress.com/e/fIIUbYR" target="_blank" id="A_18">          
                   <i id="I_19"></i> Kúp           
                   <i id="I_20"></i></a>		       
@@ -110,16 +110,16 @@
       function cenaID(id) {
         $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=originalPrice,salePrice,discount&localCurrency=EUR&productId=' +id, function(data) {
           console.log(data.result.discount);
-          if (data.result.discount == "0%") {return data.result.salePrice + "&nbsp&nbsp";}
-            else {return "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
+          if (data.result.discount == "0%") {document.getElementById(id).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
+            else {document.getElementById(id).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
         });   
       }
       
       console.log(cenaID(32768431306));
       
-      document.getElementById("cena1").innerHTML = cenaID(32768431306);
-      document.getElementById("cena2").innerHTML = cenaID(32657861317);
-      document.getElementById("cena3").innerHTML = cenaID(32664780300);
+      cenaID(32765699087);
+      cenaID(32657861317);
+      cenaID(32664780300);
       
       $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=originalPrice,salePrice,discount&localCurrency=EUR&productId=32768431306', function(data) {
       if (data.result.discount == "0%") {document.getElementById("cena4").innerHTML = data.result.salePrice + "&nbsp&nbsp";}
