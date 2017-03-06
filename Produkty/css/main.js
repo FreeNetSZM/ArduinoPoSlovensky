@@ -31,7 +31,7 @@ function ProduktID(id, nadpis, popis, link) {
    //  document.getElementById("IMG_" + id).src = data.result.imageUrl;    
   });  
   
-    $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
+  $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
      document.getElementById("IMG_" + id).src = img.result.image220;    
   });  
 } 
