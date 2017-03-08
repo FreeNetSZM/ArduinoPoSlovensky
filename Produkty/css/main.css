@@ -52,7 +52,6 @@
 #POPIS {
     height: 130px;
     font: normal normal normal normal 15px / 21.4286px "Roboto Condensed", Helvetica, Arial, sans-serif;    
-    /*margin: 0px 0px 10px 117px;*/
     padding: 0px 10px 0px 0px;
 }
 
@@ -62,23 +61,10 @@
     margin: 20px 0px 10px;
 }
 
-/*#DIV_6:before {
-    box-sizing: border-box;
-    color: rgb(51, 51, 51);
-    content: ' ';
-    display: table;
-    text-size-adjust: 100%;
-    column-rule-color: rgb(51, 51, 51);
-    border: 0px none rgb(51, 51, 51);
-    font: normal normal normal normal 15px / 21.4286px "Roboto Condensed", Helvetica, Arial, sans-serif;
-    outline: rgb(51, 51, 51) none 0px;
-}*/
-
 #DOWN {
     border-top: 1px solid rgb(170, 170, 170);
     padding: 5px;
 }
-
 
 #PRICE {
     color: rgb(0, 128, 0);
@@ -101,24 +87,15 @@
     padding: 1px 5px; 
 }
 
-/*#I_19 {
-}*/
-
 #KUP_PRED:before {
     content: '';
     font: normal normal normal normal 14px / 14px FontAwesome;
 }
 
-/*#I_20 {
-}*/
-
 #KUP_ZA:before {
     content: '';
     font: normal normal normal normal 14px / 14px FontAwesome;
 }
-
-/*#A_21 {
-}*/
 
 #DOWN_R {
     float: right;
