@@ -2,19 +2,19 @@ function ProduktID(id, nadpis, popis, link) {
   var div = document.createElement(div);
   div.innerHTML =
       '<div id="banner_div">\n' +
-        '<div id="DIV_1">\n' +
-          '<div id="DIV_2">\n' +
-            '<img class="IMG_3" id="IMG_' + id +'"/>\n' +
+        '<div id="banner_shadow">\n' +
+          '<div id="PRODUKT_IMG">\n' +
+            '<img class="ID_IMG" id="IMG_' + id +'"/>\n' +
           '</div>\n' +
           '<div id="DIV_4">\n' +
             '<h5 id="H5_5">' + nadpis + '</h5>' + popis + ' \n' +
           '</div>\n' +
-          '<div id="DIV_15">\n' +
-            '<div id="DIV_16">\n' +
+          '<div id="DOWN">\n' +
+            '<div id="DOWN_R">\n' +
               '<span id="PRICE"><div id="' + id + '"></div></span>\n' +
               '<a href="' + link +'" target="_blank" id="KUP">\n' +
-              '<i id="I_19"></i> Kúp\n' +
-              '<i id="I_20"></i></a>\n' +
+              '<i id="KUP_PRED"></i> Kúp\n' +
+              '<i id="KUP_ZA"></i></a>\n' +
             '</div>\n' +
             '<a href="http://s.click.aliexpress.com/e/vR7maIuzV">\n' +
             '<img src="/ArduinoPoSlovensky/Produkty/images/ali.png" target="_blank" id="IMG_ALI"/></a>\n' +
