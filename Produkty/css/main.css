@@ -49,14 +49,14 @@
     width: 150px;
 }
 
-#DIV_4 {
+#POPIS {
     height: 130px;
     font: normal normal normal normal 15px / 21.4286px "Roboto Condensed", Helvetica, Arial, sans-serif;    
     /*margin: 0px 0px 10px 117px;*/
     padding: 0px 10px 0px 0px;
 }
 
-#H5_5 {
+#NADPIS {
     height: 30px;
     font: normal normal normal normal 16px / 17.6px kg_second_chances_solidRg;
     margin: 20px 0px 10px;
