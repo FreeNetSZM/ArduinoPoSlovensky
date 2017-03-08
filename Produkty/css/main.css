@@ -80,13 +80,13 @@
 }
 
 
-#SPAN_17 {
+#PRICE {
     color: rgb(0, 128, 0);
     float: left;
     font: normal normal normal normal 15px / 21.4286px "Roboto Condensed", Helvetica, Arial, sans-serif;
 }
 
-#A_18 {
+#KUP {
     box-sizing: border-box;
     color: rgb(255, 255, 255);
     display: inline-block;
@@ -124,6 +124,6 @@
     float: right;
 }
 
-#IMG_22 {
+#IMG_ALI {
     vertical-align: middle;
 }
