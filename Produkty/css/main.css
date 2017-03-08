@@ -244,7 +244,7 @@
 }/*#A_18*/
 
 #I_19 {
-    box-sizing: border-box;
+    /*box-sizing: border-box;
     color: rgb(255, 255, 255);
     cursor: pointer;
     display: inline-block;
@@ -259,13 +259,15 @@
     user-select: none;
     border: 0px none rgb(255, 255, 255);
     font: normal normal normal normal 14px / 14px 14px FontAwesome;
-    outline: rgb(255, 255, 255) none 0px;
+    outline: rgb(255, 255, 255) none 0px;*/
 }/*#I_19*/
 
 #I_19:before {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
     content: '';
+    font: normal normal normal normal 14px / 14px FontAwesome;
+    
+    /*box-sizing: border-box;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     text-align: center;
     text-size-adjust: 100%;
@@ -273,12 +275,11 @@
     column-rule-color: rgb(255, 255, 255);
     user-select: none;
     border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 14px FontAwesome;
-    outline: rgb(255, 255, 255) none 0px;
+    outline: rgb(255, 255, 255) none 0px;*/
 }/* #I_19:before*/
 
 #I_20 {
-    box-sizing: border-box;
+    /*box-sizing: border-box;
     color: rgb(255, 255, 255);
     cursor: pointer;
     display: inline-block;
@@ -293,13 +294,15 @@
     user-select: none;
     border: 0px none rgb(255, 255, 255);
     font: normal normal normal normal 14px / 14px FontAwesome;
-    outline: rgb(255, 255, 255) none 0px;
+    outline: rgb(255, 255, 255) none 0px;*/
 }/*#I_20*/
 
 #I_20:before {
-    box-sizing: border-box;
-    color: rgb(255, 255, 255);
     content: '';
+    font: normal normal normal normal 14px / 14px FontAwesome;
+    
+    /*box-sizing: border-box;
+    color: rgb(255, 255, 255);
     cursor: pointer;
     text-align: center;
     text-size-adjust: 100%;
@@ -307,8 +310,7 @@
     column-rule-color: rgb(255, 255, 255);
     user-select: none;
     border: 0px none rgb(255, 255, 255);
-    font: normal normal normal normal 14px / 14px FontAwesome;
-    outline: rgb(255, 255, 255) none 0px;
+    outline: rgb(255, 255, 255) none 0px;*/
 }/*#I_20:before*/
 
 #A_21 {
