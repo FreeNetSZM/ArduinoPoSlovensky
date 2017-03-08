@@ -2,24 +2,24 @@ function ProduktID(id, nadpis, popis, link) {
   var div = document.createElement(div);
   div.innerHTML =
       '<div id="banner_div">\n' +
-      '<div id="DIV_1">\n' +
-      '<div id="DIV_2">\n' +
-      '<img class="IMG_3" id="IMG_' + id +'"/>\n' +
-      '</div>\n' +
-      '<div id="DIV_4">\n' +
-      '<h5 id="H5_5">' + nadpis + '</h5>' + popis + ' \n' +
-      '</div>\n' +
-      '<div id="DIV_15">\n' +
-      '<div id="DIV_16">\n' +
-      '<span id="SPAN_17"><div id="' + id + '"></div></span>\n' +
-      '<a href="' + link +'" target="_blank" id="A_18">\n' +
-      '<i id="I_19"></i> Kúp\n' +
-      '<i id="I_20"></i></a>\n' +
-      '</div>\n' +
-      '<a href="http://s.click.aliexpress.com/e/vR7maIuzV" id="A_21">\n' +
-      '<img src="/ArduinoPoSlovensky/Produkty/images/ali.png" target="_blank" id="IMG_22"/></a>\n' +
-      '</div>\n' +
-      '</div>\n' +
+        '<div id="DIV_1">\n' +
+          '<div id="DIV_2">\n' +
+            '<img class="IMG_3" id="IMG_' + id +'"/>\n' +
+          '</div>\n' +
+          '<div id="DIV_4">\n' +
+            '<h5 id="H5_5">' + nadpis + '</h5>' + popis + ' \n' +
+          '</div>\n' +
+          '<div id="DIV_15">\n' +
+            '<div id="DIV_16">\n' +
+              '<span id="PRICE"><div id="' + id + '"></div></span>\n' +
+              '<a href="' + link +'" target="_blank" id="KUP">\n' +
+              '<i id="I_19"></i> Kúp\n' +
+              '<i id="I_20"></i></a>\n' +
+            '</div>\n' +
+            '<a href="http://s.click.aliexpress.com/e/vR7maIuzV">\n' +
+            '<img src="/ArduinoPoSlovensky/Produkty/images/ali.png" target="_blank" id="IMG_ALI"/></a>\n' +
+          '</div>\n' +
+        '</div>\n' +
       '</div>\n';
   document.getElementById("inner").appendChild(div);
   
