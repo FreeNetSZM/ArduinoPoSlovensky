@@ -9,8 +9,8 @@ function ProduktID(id, nadpis, popis, link) {
       '<div id="DIV_4">\n' +
       '<h5 id="H5_5">' + nadpis + '</h5>' + popis + ' \n' +
       '</div>\n' +
-      '<div id="DIV_6">\n' +
-      '</div>\n' +
+      //'<div id="DIV_6">\n' +
+      //'</div>\n' +
       '<div id="DIV_15">\n' +
       '<div id="DIV_16">\n' +
       '<span id="SPAN_17"><div id="' + id + '"></div></span>\n' +
