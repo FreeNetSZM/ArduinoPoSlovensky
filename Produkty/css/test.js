@@ -4,10 +4,6 @@ function ProduktID() {
   var div;
   var max = arguments.length;
   
-    for(var i=0; i<arguments.length; i++) {
-    console.log(arguments[i])
-  }
-  
   for (id = 0; id < max; id++) {
     div = document.createElement("DIV_" + id);
       div.innerHTML =
@@ -33,7 +29,12 @@ function ProduktID() {
             '</div>\n' +
           '</div>\n';
       document.getElementById("inner").appendChild(div);
-  }      
+  }    
+  
+    
+    for(var i=0; i<arguments.length; i++) {
+    console.log(arguments[i])
+  }
 
   $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json', function(data) {
      for (i = 0; i < max; i++) {
