@@ -1,7 +1,7 @@
 function ProduktID() { 
   var i;
   var id;
-  var div
+  var div;
   for (i = 0; i < arguments.length; i++) {
     id = arguments[i];
     div = document.createElement("ID_" + id);
