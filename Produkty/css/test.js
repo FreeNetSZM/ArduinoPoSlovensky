@@ -32,7 +32,7 @@ function ProduktID() {
   }    
   
     
-    for(var i=0; i<arguments.length; i++) {
+    for(var i=0; i<max; i++) {
     console.log(arguments[i])
   }
 
