@@ -8,8 +8,8 @@ function ProduktID(id) {
               '<img class="ID_IMG" id="IMG_' + id +'"/>\n' +
             '</div>\n' +
             '<div class="POPIS" id="POPIS">\n' +
-              '<h5 class="NADPIS" id="NADPIS"></h5>\n' +
-               '<div id="OPIS"></div>\n' +
+              '<h5 class="NADPIS" id="NADPIS_' + id + '"></h5>\n' +
+               '<div id="OPIS_' + id + '"></div>\n' +
             '</div>\n' +
             '<div id="DOWN">\n' +
               '<div id="DOWN_R">\n' +
@@ -26,8 +26,8 @@ function ProduktID(id) {
     document.getElementById("inner").appendChild(div);
         
   $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json', function(name) {
-    document.getElementById("NADPIS").innerHTML = name[id][0];
-    document.getElementById("OPIS").innerHTML = name[id][1];
+    document.getElementById("NADPIS_" + id).innerHTML = name[id][0];
+    document.getElementById("OPIS_" + id).innerHTML = name[id][1];
     document.getElementById("KUP").href = name[id][2];           
   });  
   
