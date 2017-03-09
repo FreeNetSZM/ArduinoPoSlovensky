@@ -1,9 +1,10 @@
 function ProduktID() { 
   var i;
   var id;
+  var div
   for (i = 0; i < arguments.length; i++) {
     id = arguments[i];
-    var div = document.createElement(id);
+    div = document.createElement("ID_" + id);
       div.innerHTML =
           '<div id="banner_div">\n' +
             '<div id="banner_shadow">\n' +
