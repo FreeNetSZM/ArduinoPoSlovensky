@@ -49,13 +49,13 @@
     width: 150px;
 }
 
-#POPIS {
+.POPIS {
     height: 130px;
     font: normal normal normal normal 15px / 21.4286px "Roboto Condensed", Helvetica, Arial, sans-serif;    
     padding: 0px 10px 0px 0px;
 }
 
-#NADPIS {
+.NADPIS {
     height: 30px;
     font: normal normal normal normal 16px / 17.6px kg_second_chances_solidRg;
     margin: 20px 0px 10px;
