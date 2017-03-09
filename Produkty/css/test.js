@@ -4,6 +4,10 @@ function ProduktID() {
   var div;
   var max = arguments.length;
   
+    for(var i=0; i<arguments.length; i++) {
+    console.log(arguments[i])
+  }
+  
   for (id = 0; id < max; id++) {
     div = document.createElement("DIV_" + id);
       div.innerHTML =
