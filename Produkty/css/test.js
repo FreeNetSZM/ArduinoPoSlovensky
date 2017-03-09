@@ -4,8 +4,8 @@ function ProduktID() {
   var div;
   var max = arguments.length;
   
-  for (id = 0; i < max; id++) {
-    div = document.createElement("ID_" + id);
+  for (id = 0; id < max; id++) {
+    div = document.createElement(id);
       div.innerHTML =
           '<div id="banner_div">\n' +
             '<div id="banner_shadow">\n' +
