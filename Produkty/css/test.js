@@ -32,7 +32,7 @@ function ProduktID() {
 
 
   var x;  
-  var isx;
+  var idx;
   $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json', function(name) {
       for (x = 0; x < arguments.length; x++) {
         idx = arguments[x];
