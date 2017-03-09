@@ -31,14 +31,12 @@ function ProduktID() {
   }      
 
 
-  var x;  
-  var idx;
   $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json', function(name) {
-      for (x = 0; x < arguments.length; x++) {
-        idx = arguments[x];
-        document.getElementById("NADPIS_" + idx).innerHTML = name[idx][0];
-        document.getElementById("OPIS_" + idx).innerHTML = name[idx][1];
-        document.getElementById("KUP").href = name[idx][2];      
+      for (i = 0; i < arguments.length; i++) {
+        id = arguments[i];
+        document.getElementById("NADPIS_" + id).innerHTML = name[id][0];
+        document.getElementById("OPIS_" + id).innerHTML = name[id][1];
+        document.getElementById("KUP").href = name[id][2];      
       }  
   });  
   
