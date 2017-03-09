@@ -6,8 +6,8 @@ function ProduktID(id, nadpis, popis, link) {
           '<div id="PRODUKT_IMG">\n' +
             '<img class="ID_IMG" id="IMG_' + id +'"/>\n' +
           '</div>\n' +
-          '<div class="POPIS id="POPIS_' + id +'">\n' +
-            '<h5 class="NADPIS id="NADPIS_' + id +'">' + nadpis + '</h5>' + popis + ' \n' +
+          '<div class="POPIS" id="POPIS_' + id +'">\n' +
+            '<h5 class="NADPIS" id="NADPIS_' + id +'">' + nadpis + '</h5>' + popis + ' \n' +
           '</div>\n' +
           '<div id="DOWN">\n' +
             '<div id="DOWN_R">\n' +
