@@ -31,7 +31,7 @@ function ProduktID() {
       document.getElementById("inner").appendChild(div);
   }      
 
-  
+  $.ajax({ async: false });
   $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json', function(data) {
      for (i = 0; i < max; i++) {
         id = arguments[i];
