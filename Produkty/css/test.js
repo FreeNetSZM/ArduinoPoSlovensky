@@ -53,7 +53,7 @@ function ProduktID() {
         $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
          document.getElementById("IMG_" + id).src = img.result.image220;    
       });   
-    })(z)
+    })(z);
   }
 
  
