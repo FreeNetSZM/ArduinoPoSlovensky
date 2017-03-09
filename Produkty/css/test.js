@@ -2,8 +2,9 @@ function ProduktID() {
   var i;
   var id;
   var div;
-  for (i = 0; i < arguments.length; i++) {
-    id = i;
+  var max = arguments.length;
+  
+  for (id = 0; i < max; id++) {
     div = document.createElement("ID_" + id);
       div.innerHTML =
           '<div id="banner_div">\n' +
@@ -30,18 +31,18 @@ function ProduktID() {
       document.getElementById("inner").appendChild(div);
   }      
 
-
+  var idx;
   $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json', function(name) {
-      for (i = 0; i < arguments.length; i++) {
-        id = arguments[i];
-        document.getElementById("NADPIS_" + i).innerHTML = name[id][0];
-        document.getElementById("OPIS_" + i).innerHTML = name[id][1];
-        document.getElementById("KUP_" + i).href = name[id][2];      
+      for (i = 0; i < max; i++) {
+        idx = arguments[i];
+        document.getElementById("NADPIS_" + i).innerHTML = name[idx][0];
+        document.getElementById("OPIS_" + i).innerHTML = name[idx][1];
+        document.getElementById("KUP_" + i).href = name[idx][2];      
       }  
   });  
   
   var z;
-  for (z = 0; z < arguments.length; z++) {
+  for (z = 0; z < max; z++) {
     
     (function(z) {
       $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,imageUrl,productUrl&localCurrency=EUR&productId=' +id, function(data) {
