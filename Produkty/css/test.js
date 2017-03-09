@@ -1,20 +1,5 @@
 function ProduktID(id) { 
         
-  $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json', function(name) {
-    document.getElementById("NADPIS").innerHTML = name[id][0];
-    document.getElementById("OPIS").innerHTML = name[id][1];
-    document.getElementById("KUP").href = name[id][2];           
-  });  
-  
-  $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,imageUrl,productUrl&localCurrency=EUR&productId=' +id, function(data) {
-       if (data.result.discount == "0%") {document.getElementById(id).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
-         else {document.getElementById(id).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
-  });  
-
-  $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
-       document.getElementById("IMG_" + id).src = img.result.image220;    
-  });   
-       
   var div = document.createElement(div);
     div.innerHTML =
         '<div id="banner_div">\n' +
@@ -39,7 +24,21 @@ function ProduktID(id) {
           '</div>\n' +
         '</div>\n';
     document.getElementById("inner").appendChild(div);
+        
+  $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json', function(name) {
+    document.getElementById("NADPIS").innerHTML = name[id][0];
+    document.getElementById("OPIS").innerHTML = name[id][1];
+    document.getElementById("KUP").href = name[id][2];           
+  });  
   
+  $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,imageUrl,productUrl&localCurrency=EUR&productId=' +id, function(data) {
+       if (data.result.discount == "0%") {document.getElementById(id).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
+         else {document.getElementById(id).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
+  });  
+
+  $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
+       document.getElementById("IMG_" + id).src = img.result.image220;    
+  });    
 }
 
 
