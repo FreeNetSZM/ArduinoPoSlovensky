@@ -12,7 +12,7 @@ function ProduktID(id, nadpis, popis, link) {
           '<div id="DOWN">\n' +
             '<div id="DOWN_R">\n' +
               '<span id="PRICE"><div id="' + id + '"></div></span>\n' +
-              '<a href="' + link +'" target="_blank" id="KUP">\n' +
+              '<a href="' + link +'" target="_blank" class= "KUP" id="KUP">\n' +
               '<i id="KUP_PRED"></i> Kúp\n' +
               '<i id="KUP_ZA"></i></a>\n' +
             '</div>\n' +
