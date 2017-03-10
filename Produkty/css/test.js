@@ -1,7 +1,5 @@
 function ProduktID() { 
-  var i;
-  var id;
-  var div;
+  var i, id, div, z;
   var arg = arguments;
   var max = arguments.length;
     
@@ -41,10 +39,7 @@ function ProduktID() {
      }
   });  
   
-  
-  var z;
-  for (z = 0; z < max; z++) {
-    
+  for (z = 0; z < max; z++) {    
     (function(z) {
       id = arg[z];
       console.log(id);
@@ -57,9 +52,7 @@ function ProduktID() {
          document.getElementById("IMG_" + z).src = img.result.image220;    
       });   
     })(z);
-  }
-
- 
+  } 
 }
 
 
