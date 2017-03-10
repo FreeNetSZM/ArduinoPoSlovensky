@@ -31,15 +31,10 @@ function ProduktID() {
           '</div>\n';
       document.getElementById("inner").appendChild(div);
   }    
-  
-    
-    for(var i=0; i<max; i++) {
-    console.log(arg[i])
-  }
 
   $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json', function(data) {
      for (i = 0; i < max; i++) {
-        id = 32765699087;
+        id = arg[i];
         console.log(parseInt(arg[i]));
         document.getElementById("NADPIS_" + i).innerHTML = data[id][0];
         document.getElementById("OPIS_" + i).innerHTML = data[id][1];
