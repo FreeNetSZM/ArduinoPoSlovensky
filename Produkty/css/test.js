@@ -41,7 +41,7 @@ function ProduktID() {
      }
   });  
   
-  /*
+  
   var z;
   for (z = 0; z < max; z++) {
     
@@ -54,7 +54,7 @@ function ProduktID() {
          document.getElementById("IMG_" + z).src = img.result.image220;    
       });   
     })(z);
-  }*/
+  }
 
  
 }
