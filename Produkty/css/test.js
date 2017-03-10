@@ -53,9 +53,9 @@ function ProduktID() {
              else {document.getElementById(z).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
       });
       
-      /*$.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
+      $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
          document.getElementById("IMG_" + z).src = img.result.image220;    
-      });*/   
+      });   
     })(z);
   }
 
