@@ -1,5 +1,5 @@
 function ProduktID() { 
-  var i, id, div, z;
+  var i, id, div;
   var arg = arguments;
   var max = arguments.length;
     
@@ -39,17 +39,17 @@ function ProduktID() {
      }
   });  
   
-  for (z = 0; z < max; z++) {    
-    (function(z) {
-      id = arg[z];
+  for (i = 0; i < max; i++) {    
+    (function(i) {
+      id = arg[i];
       $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,imageUrl,productUrl&localCurrency=EUR&productId=' +id, function(data) {
-           if (data.result.discount == "0%") {document.getElementById(z).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
-             else {document.getElementById(z).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
+           if (data.result.discount == "0%") {document.getElementById(i).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
+             else {document.getElementById(i).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
       });      
       $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
-         document.getElementById("IMG_" + z).src = img.result.image220;    
+         document.getElementById("IMG_" + i).src = img.result.image220;    
       });   
-    })(z);
+    })(i);
   } 
 }
 
