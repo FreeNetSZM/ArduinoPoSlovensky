@@ -4,9 +4,9 @@ function ProduktID() {
   var max = arguments.length;
     
   for (id = 0; id < max; id++) {
-    div = document.createElement("DIV_" + id);
+    div = document.createElement("banner_div");
       div.innerHTML =
-          '<div id="banner_div">\n' +
+
             '<div id="banner_shadow">\n' +
               '<div id="PRODUKT_IMG">\n' +
                 '<img class="ID_IMG" id="IMG_' + id +'"/>\n' +
@@ -26,7 +26,7 @@ function ProduktID() {
                 '<img src="/ArduinoPoSlovensky/Produkty/images/ali.png" target="_blank" id="IMG_ALI"/></a>\n' +
               '</div>\n' +
             '</div>\n' +
-          '</div>\n';
+
       document.getElementById("inner").appendChild(div);
   }    
 
