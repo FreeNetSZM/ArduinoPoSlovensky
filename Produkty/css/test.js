@@ -2,8 +2,9 @@ function ProduktID() {
   var i;
   var id;
   var div;
+  var arg = arguments;
   var max = arguments.length;
-  
+    
   for (id = 0; id < max; id++) {
     div = document.createElement("DIV_" + id);
       div.innerHTML =
@@ -33,13 +34,13 @@ function ProduktID() {
   
     
     for(var i=0; i<max; i++) {
-    console.log(arguments[i])
+    console.log(arg[i])
   }
 
   $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json', function(data) {
      for (i = 0; i < max; i++) {
         id = 32765699087;
-        console.log(parseInt(arguments[i]));
+        console.log(parseInt(arg[i]));
         document.getElementById("NADPIS_" + i).innerHTML = data[id][0];
         document.getElementById("OPIS_" + i).innerHTML = data[id][1];
         document.getElementById("KUP_" + i).href = data[id][2];      
