@@ -47,6 +47,7 @@ function ProduktID() {
            if (data.result.discount == "0%") {document.getElementById(i).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
              else {document.getElementById(i).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";}
         document.getElementById("STAR_" + i).style.width = (data.result.evaluateScore * 20) + "%";
+        document.getElementById("STAR_" + i).innerHTML = data.result.evaluateScore;
       });      
       $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
          document.getElementById("IMG_" + i).src = img.result.image220;    
