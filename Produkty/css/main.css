@@ -16,7 +16,7 @@
 .star-ratings-sprite {
   background: url("https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/images/star-rating-sprite.png") repeat-x;
   font-size: 0;
-  /*height: 21px;*/
+  float: left;
   line-height: 0;
   overflow: hidden;
   text-indent: -999em;
