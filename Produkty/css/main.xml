@@ -3,10 +3,10 @@
 <Content type="html">
 <![CDATA[   <head>         
     <meta charset="utf-8">      
-    <link rel="stylesheet" href="/ArduinoPoSlovensky/Produkty/css/main.css">    
+    <link rel="stylesheet" href="https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.css">    
     <title>Arduino na AliExpresse</title>
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
-    <script type='text/javascript' src='/ArduinoPoSlovensky/Produkty/css/main.js'></script>
+    <script type='text/javascript' src='https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.js'></script>
   </head>    
   <body> 
      <div id="container">      
