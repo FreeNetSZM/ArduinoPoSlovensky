@@ -317,11 +317,16 @@
   "32433041986": [
     "DHT22",
     "Senzor DHT-22 na meranie teploty -40~80°C (±0.5°C) a vlhkosti 0%~100%RH (±2%RH)",
-    "http://s.click.aliexpress.com/e/qfAEaMn"
+    "https://s.click.aliexpress.com/e/qfAEaMn"
   ],
   "32587460354": [
     "DS18B20 modul",
     "Senzor DS18B20 Dallas na meranie teploty -55°C~125°C (±0.5°C)",
-    "http://s.click.aliexpress.com/e/QRjiIIy"
+    "https://s.click.aliexpress.com/e/QRjiIIy"
+  ],
+  "32736388682": [
+    "5pcs DALLAS DS18B20",
+    "Senzor DS18B20 Dallas 5ks, meranie teploty -55°C~125°C (±0.5°C)",
+    "https://s.click.aliexpress.com/e/Mvfa6Qb"
   ]
 }
