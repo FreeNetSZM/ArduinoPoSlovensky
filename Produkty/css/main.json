@@ -332,11 +332,21 @@
   "32787568486": [
     "BME280",
     "Senzor BME280 na meranie tlaku, teploty a vlhkosti. Využíva I2C alebo SPI zbernicu. Používam ho v meteostanici - 3 senzory v jednom.",
-    "http://s.click.aliexpress.com/e/jUBeiMj"
+    "https://s.click.aliexpress.com/e/jUBeiMj"
   ],
   "32661523638": [
     "BMP280",
     "Senzor BME280 tlaku a teploty. Používa I2C alebo SPI zbernicu. Funguje tiež vynikajúco.",
-    "http://s.click.aliexpress.com/e/ZBme6yR"
+    "https://s.click.aliexpress.com/e/ZBme6yR"
+  ],
+  "32571982425": [
+    "Anemometer/360° Wind Speed Sensor",
+    "Senzor na meranie rýchlosti vetra. Napájanie 7~24VDC, výstupný signál 0~5V pri 0~32.4m/s (±1m/s)",
+    "https://s.click.aliexpress.com/e/mI2zrRB"
+  ],
+  "32674800183": [
+    "Anemometer/360° Wind Direction Sensor",
+    "Senzor na na meranie smeru vetra. Napájanie 7~24VDC, výstupný signál 0.4-2V pri 0~360°",
+    "https://s.click.aliexpress.com/e/zvRzzvz"
   ]
 }
