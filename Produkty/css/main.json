@@ -331,12 +331,12 @@
   ],
   "32787568486": [
     "BME280",
-    "Senzor BME280 tlaku, teploty a vlhkosti. Používa I2C alebo SPI zbernicu.",
+    "Senzor BME280 na meranie tlaku, teploty a vlhkosti. Využíva I2C alebo SPI zbernicu. Používam ho v meteostanici - 3 senzory v jednom.",
     "http://s.click.aliexpress.com/e/jUBeiMj"
   ],
   "32661523638": [
     "BMP280",
-    "Senzor BME280 tlaku a teploty. Používa I2C alebo SPI zbernicu.",
+    "Senzor BME280 tlaku a teploty. Používa I2C alebo SPI zbernicu. Funguje tiež vynikajúco.",
     "http://s.click.aliexpress.com/e/ZBme6yR"
   ]
 }
