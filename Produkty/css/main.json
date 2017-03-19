@@ -353,5 +353,50 @@
     "Anemometer/360° Wind Direction Sensor",
     "Senzor na meranie smeru vetra. Napájanie 7~24VDC, výstupný signál 0.4-2V pri 0~360°",
     "https://s.click.aliexpress.com/e/zvRzzvz"
+  ],
+  "32482080664": [
+    "MQ2 Sensor",
+    "Methane, Butane, LPG, smoke",
+    "http://s.click.aliexpress.com/e/iyjqJmm"
+  ],
+  "32499896715": [
+    "MQ3 Sensor",
+    "Alcohol, Ethanol, smoke",
+    "http://s.click.aliexpress.com/e/vnyrNZV"
+  ],
+  "32499896739": [
+    "MQ4 Sensor",
+    "Methane, CNG Gas",
+    "http://s.click.aliexpress.com/e/62zzZnu"
+  ],
+  "32503399451": [
+    "MQ5 Sensor",
+    "Tento analogový senzor detekuje LPG (zkapalněný ropný plyn, propan-butan), Zemní plyn (70-90% CH4)",
+    "http://s.click.aliexpress.com/e/YvZJm2v"
+  ],
+  "32503407287": [
+    "MQ6 Sensor",
+    "LPG, butane gas",
+    "http://s.click.aliexpress.com/e/miemIyZ"
+  ],
+  "32502378930": [
+    "MQ7 Sensor",
+    "Tento analogový senzor detekuje Oxid uhelnatý CO (carbon monoxide)",
+    "http://s.click.aliexpress.com/e/UBqBeYv"
+  ],
+  "32503900911": [
+    "MQ8 Sensor",
+    "Smoke Liquefied Flammable Methane Gas",
+    "http://s.click.aliexpress.com/e/7Uj6yFU"
+  ],
+  "32503920539": [
+    "MQ9 Sensor",
+    "dioxide (SnO2)",
+    "http://s.click.aliexpress.com/e/7Uj6yFU"
+  ],
+  "32502221002": [
+    "MQ135 Sensor",
+    "Tento analogový senzor detekuje Oxid uhličitý CO2 (carbon dioxide), Amoniak NH3, Oxidy dusíku NOx, Benzen, Alkohol, Kouř",
+    "http://s.click.aliexpress.com/e/urfYFMb"
   ]
 }
