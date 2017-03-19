@@ -498,5 +498,10 @@
     "APDS-9960 RGB Gesture Sensor",
     "Multifunkčný senzor umožňuje rozpoznať spektrum farieb, smery pohybu, intenzitu dopadajúceho svetla. Napájanie 3.3V, výstup I2C 0x39",
     "http://s.click.aliexpress.com/e/N7u3JII"
+  ],  
+  "32731911963": [
+    "UVM-30A UV Detection Sensor Module",
+    "Senzor meria intenzitu UV indexu. Napájanie 3V~5V, výstup 0~1V DC, vlnová dĺžka 200nm~370nm",
+    "http://s.click.aliexpress.com/e/6MFiiY3"
   ]
 }
