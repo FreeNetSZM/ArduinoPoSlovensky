@@ -433,5 +433,20 @@
     "PIR mini HC-SR505",
     "Pohybový senzor PIR mini HC-SR505. Napájanie 4.5V~20V DC, výstup 3.3V, dosah 3m, uhol detekcie < 100°",
     "http://s.click.aliexpress.com/e/RFeI2be"
+  ],  
+  "1988431775": [
+    "GPS GY-GPS6MV2 Ublox NEO-6M",
+    "GPS senzor s integrovanou EEPROM, napájanie 3V~5V DC, výstup sériový RX-TX 9600 bps",
+    "http://s.click.aliexpress.com/e/nAEmMfE"
+  ],  
+  "32607557018": [
+    "GY-273 HMC5883L",
+    "Trojosý magnetický elektronický kompas GY-273 HMC5883L, napájanie 3V~5V DC, výstup I2C alebo SPI",
+    "http://s.click.aliexpress.com/e/nAEmMfE"
+  ],  
+  "32697682602": [
+    "GY-282 HMC5983",
+    "Trojosý magnetický elektronický kompas GY-282 HMC5983 (nahrádza GY-273 HMC5883L), napájanie 3V~5V DC, výstup I2C alebo SPI",
+    "http://s.click.aliexpress.com/e/nAEmMfE"
   ]
 }
