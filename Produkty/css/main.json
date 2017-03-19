@@ -483,5 +483,20 @@
     "5.8GHZ Microwave Radar Sensor",
     "Mikrovlnný snímač pohybu, napájanie 3.3V~20V DC, výstup OUT TTL 3.3V, dosah 3~8m, uhol detekcie 360° (guľové)",
     "http://s.click.aliexpress.com/e/MJI6YBe"
+  ],  
+  "32711027060": [
+    "GY-302 BH1750",
+    "Senzor intenzity osvetlenia, napájanie 3V~5V DC, výstup I2C v jednotkách lux, rozsah 1-65535 lx",
+    "http://s.click.aliexpress.com/e/QbM33rb"
+  ],  
+  "32765297772": [
+    "TCS3414CS Color Recognition Detector Sensor",
+    "Senzor rozpoznáva farby, napájanie 3.3V~5V DC, výstup I2C v hodnotách RGB",
+    "http://s.click.aliexpress.com/e/IqjAMz3"
+  ],  
+  "32676072842": [
+    "APDS-9960 RGB Gesture Sensor",
+    "Multifunkčný senzor umožňuje rozpoznať spektrum farieb, smery pohybu, intenzitu dopadajúceho svetla. Napájanie 3.3V, výstup I2C 0x39",
+    "http://s.click.aliexpress.com/e/N7u3JII"
   ]
 }
