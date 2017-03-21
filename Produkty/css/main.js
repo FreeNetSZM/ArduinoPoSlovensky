@@ -8,8 +8,7 @@ function ProduktID() {
       div.setAttribute("id", arg[id]);
       div.setAttribute("class", "bannerID");
       div.innerHTML =
-
-            '<div id="banner_shadow">\n' +
+            '<div class="banner_shadow">\n' +
               '<div id="PRODUKT_IMG">\n' +
                 '<img class="ID_IMG" id="IMG_' + id +'"/>\n' +
               '</div>\n' +
@@ -28,7 +27,6 @@ function ProduktID() {
                   '<img src="/ArduinoPoSlovensky/Produkty/images/ali.png" target="_blank" id="IMG_ALI"/></a>\n' + 
                 '<div class="star-ratings-sprite"><span style="width:1%" id="STAR_' + id + '" class="star-ratings-sprite-rating"></span></div><div id="SCORE_' + id + '"></div>\n' +        
               '</div>\n' +
-
           '</div>\n'
       document.getElementById("inner").appendChild(div);
   }    
