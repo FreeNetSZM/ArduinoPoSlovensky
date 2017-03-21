@@ -34,14 +34,14 @@
 }
 
 #container { 
-  height: 100%; 
-  width: 100%; 
-  display: table; 
 }    
 
 #inner { 
-  vertical-align: middle; 
-  display: table-cell; 
+  height: 100%; 
+  width: 100%; 
+  display: table;   
+  /*vertical-align: middle; 
+  display: table-cell; */
 }    
 
 #banner_div { 
