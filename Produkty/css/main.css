@@ -39,20 +39,10 @@
 #inner { 
   height: 100%; 
   width: 100%; 
-  display: table;   
-  /*vertical-align: middle; 
-  display: table-cell; */
+  display: table;  
 }    
-/*
-#banner_div { 
-  margin: 2px; 
-  padding: 2px; 
-  height: 190px; 
-  float:left; 
-  width: 465px;
-}  */   
 
-#banner_shadow {
+.banner_shadow {
     box-shadow: rgb(170, 170, 170) 5px 5px 5px 0px;
     border: 1px solid rgb(170, 170, 170);
     border-radius: 4px 4px 4px 4px;
