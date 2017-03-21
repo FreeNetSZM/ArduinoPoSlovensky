@@ -5,7 +5,7 @@ function ProduktID() {
     
   for (id = 0; id < max; id++) {
     div = document.createElement("div_" + id);
-      
+      div.setAttribute("id", arg[id]);
       div.innerHTML =
           '<div id="banner_div">\n' +
             '<div id="banner_shadow">\n' +
