@@ -1,5 +1,5 @@
-#container { height: 100%; width: 100%; display: table; }
-#Teplota_chart_div { height: 240px; float:left; margin: 0 auto; }
-#Vlhkost_chart_div { height: 240px; float:left; margin: 0 auto; }
-#Tlak_chart_div { height: 240px; float:left; margin: 0 auto; }
-#Lux_chart_div { height: 240px; float:left; margin: 0 auto; }
+#container{height:100%;width:100%;display:table}
+#Teplota_chart_div{height:240px;float:left;margin:0 auto}
+#Vlhkost_chart_div{height:240px;float:left;margin:0 auto}
+#Tlak_chart_div{height:240px;float:left;margin:0 auto}
+#Lux_chart_div{height:240px;float:left;margin:0 auto}
