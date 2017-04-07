@@ -50,7 +50,7 @@ function ProduktID() {
         document.getElementById("SCORE_" + i).innerHTML = data.result.evaluateScore;
       });      
       $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
-        if (typeof img.result.image220 === undefined) {document.getElementById("IMG_" + i).src = "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/images/aliexpress.jpg";} 
+        if (typeof img.result.image220 === "undefined") {document.getElementById("IMG_" + i).src = "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/images/aliexpress.jpg";} 
           else {document.getElementById("IMG_" + i).src = img.result.image220;}  
       });   
     })(i);
