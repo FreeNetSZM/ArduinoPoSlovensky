@@ -1,1 +1,64 @@
-function ProduktID(){var c,e,d;var b=arguments;var a=arguments.length;for(e=0;e<a;e++){d=document.createElement("div");d.setAttribute("id",b[e]);d.setAttribute("class","bannerID");d.innerHTML='<div class="banner_shadow">\n<div id="PRODUKT_IMG">\n<img class="ID_IMG" id="IMG_'+e+'"/>\n</div>\n<div class="POPIS" id="POPIS">\n<h5 class="NADPIS" id="NADPIS_'+e+'"></h5>\n<div id="OPIS_'+e+'"></div>\n</div>\n<div id="DOWN">\n<div id="DOWN_R">\n<span id="PRICE"><div id="'+e+'"></div></span>\n<a target="_blank" class="KUP" id="KUP_'+e+'">\n<i id="KUP_PRED"></i> Kúp\n<i id="KUP_ZA"></i></a>\n</div>\n<a href="http://s.click.aliexpress.com/e/vR7maIuzV">\n<img src="/ArduinoPoSlovensky/Produkty/images/ali.png" target="_blank" id="IMG_ALI"/></a>\n<div class="star-ratings-sprite"><span style="width:1%" id="STAR_'+e+'" class="star-ratings-sprite-rating"></span></div><div id="SCORE_'+e+'"></div>\n</div>\n</div>\n';document.getElementById("inner").appendChild(d)}$.getJSON("https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json",function(f){for(c=0;c<a;c++){e=b[c];document.getElementById("NADPIS_"+c).innerHTML=f[e][0];document.getElementById("OPIS_"+c).innerHTML=f[e][1];document.getElementById("KUP_"+c).href=f[e][2]}});for(c=0;c<a;c++){(function(f){e=b[f];$.getJSON("https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,evaluateScore&localCurrency=EUR&productId="+e,function(g){if(g.result==undefined){document.getElementById(f).innerHTML="Dočasne nedostupné &nbsp&nbsp"}else{if(g.result.discount=="0%"){document.getElementById(f).innerHTML=g.result.salePrice+"&nbsp&nbsp"}else{document.getElementById(f).innerHTML="aktuálna zľava: "+g.result.discount+"&nbsp&nbsp&nbsp"+g.result.salePrice+"&nbsp&nbsp"}}document.getElementById("STAR_"+f).style.width=(g.result.evaluateScore*20)+"%";document.getElementById("SCORE_"+f).innerHTML=g.result.evaluateScore});$.getJSON("https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId="+e,function(g){if(g.result==undefined){document.getElementById("IMG_"+f).src="https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/images/aliexpress.jpg"}else{document.getElementById("IMG_"+f).src=g.result.image220}})})(c)}};
+function ProduktID() { 
+  var i, id, div;
+  var arg = arguments;
+  var max = arguments.length;
+  var inner = arg[0];
+  
+  for (i = 1; i < max; i++) {
+    id = arg[i];
+    div = document.createElement("div");
+      div.setAttribute("id", id);
+      div.setAttribute("class", "bannerID");
+      div.innerHTML =
+            '<div class="banner_shadow">\n' +
+              '<div id="PRODUKT_IMG">\n' +
+                '<img class="ID_IMG" id="IMG-' + id +'"/>\n' +
+              '</div>\n' +
+              '<div class="POPIS" id="POPIS">\n' +
+                '<h5 class="NADPIS" id="NADPIS-' + id + '"></h5>\n' +
+                 '<div id="OPIS-' + id + '"></div>\n' +
+              '</div>\n' +
+              '<div id="DOWN">\n' +
+                '<div id="DOWN_R">\n' +                  
+                  '<span id="PRICE"><div id="PRICE-' + id + '"></div></span>\n' +
+                  '<a target="_blank" class="KUP" id="KUP-' + id + '">\n' +
+                  '<i id="KUP_PRED"></i> Kúp\n' +
+                  '<i id="KUP_ZA"></i></a>\n' +
+                '</div>\n' +
+                '<a href="http://s.click.aliexpress.com/e/vR7maIuzV">\n' +
+                  '<img src="/ArduinoPoSlovensky/Produkty/images/ali.png" target="_blank" id="IMG_ALI"/></a>\n' + 
+                '<div class="star-ratings-sprite"><span style="width:1%" id="STAR-' + id + '" class="star-ratings-sprite-rating"></span></div><div id="SCORE-' + id + '"></div>\n' +        
+              '</div>\n' +
+          '</div>\n'
+      document.getElementById(inner).appendChild(div);
+  }    
+
+  $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.json', function(name) {
+     for (i = 1; i < max; i++) {
+        id = arg[i];
+        document.getElementById("NADPIS-" + id).innerHTML = name[id][0];
+        document.getElementById("OPIS-" + id).innerHTML = name[id][1];
+        document.getElementById("KUP-" + id).href = name[id][2];      
+     }
+  });  
+  
+  for (i = 1; i < max; i++) {   
+    id = arg[i];
+    (function(id) {         
+      $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,evaluateScore&localCurrency=EUR&productId=' +id, function(data) {
+        if (data.result == undefined) {document.getElementById("PRICE-" + id).innerHTML = "Dočasne nedostupné &nbsp&nbsp";}
+          else {
+              if (data.result.discount == "0%") {document.getElementById("PRICE-" + id).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
+                else {document.getElementById("PRICE-" + id).innerHTML = "aktuálna zľava: " + data.result.discount + "&nbsp&nbsp&nbsp" + data.result.salePrice + "&nbsp&nbsp";
+                }            
+              document.getElementById("STAR-" + id).style.width = (data.result.evaluateScore * 20) + "%";
+              document.getElementById("SCORE-" + id).innerHTML = data.result.evaluateScore;    
+            }
+      });          
+      $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
+        if (img.result == undefined) {document.getElementById("IMG-" + id).src = "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/images/aliexpress.jpg";} 
+          else {document.getElementById("IMG-" + id).src = img.result.image220;}  
+      });   
+    })(id);
+  } 
+}
