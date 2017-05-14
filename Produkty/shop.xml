@@ -4,11 +4,11 @@
   <![CDATA[   
   <head>  
     <meta charset="utf-8">      
-    <link rel="stylesheet" href="/ArduinoPoSlovensky/Produkty/css/main.min.css">  
+    <link rel="stylesheet" href="https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.css">  
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <title>Arduino na AliExpresse</title>
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
-    <script type='text/javascript' src='/ArduinoPoSlovensky/Produkty/css/main.min.js'></script>
+    <script type='text/javascript' src='https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.js'></script>
     <script type='text/javascript' src="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <style media="screen" type="text/css">
       .container{padding-right:0;padding-left:0;margin-right:auto;margin-left:auto;width:100%;overflow:hidden}
