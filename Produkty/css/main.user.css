@@ -33,18 +33,6 @@
   display: block;
 }
 
-#inner { 
-  height: 100%; 
-  width: 100%; 
-  display: table;  
-}    
-
-.inner { 
-  height: 100%; 
-  width: 100%; 
-  display: table;  
-} 
-
 .banner_shadow {
     box-shadow: rgb(170, 170, 170) 5px 5px 5px 0px;
     border: 1px solid rgb(170, 170, 170);
