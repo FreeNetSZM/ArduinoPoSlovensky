@@ -14,8 +14,7 @@
       .container{padding-right:0;padding-left:0;margin-right:auto;margin-left:auto;width:100%;overflow:hidden}
       .tab-pane{overflow:auto} 
     </style>
-</head>
-    
+</head>    
 <body>
   <div class="container"></div>
     <div id="exTab2" class="container">	
@@ -43,8 +42,7 @@
           <li><a href="#304" data-toggle="tab">Tranzistory</a></li>
         </ul>
       </li>
-     </ul>
-      
+     </ul>      
      <div class="tab-content">
        <div class="tab-pane active" id="101"> </div>       
        <div class="tab-pane" id="201"></div>       
@@ -60,8 +58,7 @@
        <div class="tab-pane" id="303"></div>
        <div class="tab-pane" id="304"></div>       
       </div>
-    </div>
-  
+    </div>  
     <script>
       ProduktID(101, 32765699087, 32657861317, 32664780300, 32768431306, 32779555847, 32543752387, 32430814009, 32620337494, 1967750200, 32710718229, 32686034526, 32310214921, 32616402213, 32636800949, 32612833465, 32791389562, 32276884418);
       ProduktID(201, 32709442003, 32648546573, 32529983388, 32760546807, 32675502754, 32709613337, 32464416790, 32519232040);
