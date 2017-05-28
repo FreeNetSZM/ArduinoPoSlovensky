@@ -344,15 +344,25 @@
     "Vodotesný senzor DS18B20 Dallas 2ks, meranie teploty -55°C~125°C (±0.5°C) napr. vonku alebo v bazéne, studni, ...",
     "https://s.click.aliexpress.com/e/beEa2FI"
   ],
-  "32787568486": [
-    "BME280",
-    "Senzor BME280 na meranie tlaku, teploty a vlhkosti. Využíva I2C alebo SPI zbernicu. Používam ho v meteostanici - 3 senzory v jednom.",
-    "https://s.click.aliexpress.com/e/jUBeiMj"
+  "32661117200": [
+    "BME280 5V",
+    "Senzor BME280 na meranie tlaku, teploty a vlhkosti - 3 senzory v jednom. Využíva I2C zbernicu. Napájanie 5V.",
+    "https://s.click.aliexpress.com/e/Mbuvnme"
   ],
+  "32803623878": [
+    "BME280 3.3V",
+    "Senzor BME280 na meranie tlaku, teploty a vlhkosti - 3 senzory v jednom. Využíva I2C alebo SPI zbernicu. Napájanie 3.3V.",
+    "https://s.click.aliexpress.com/e/zvBauNb"
+  ],  
+  "32797485976": [
+    "BMP280 5V",
+    "Senzor BME280 tlaku a teploty. Používa I2C zbernicu. Napájanie 5V",
+    "https://s.click.aliexpress.com/e/jMbAy3J"
+  ],  
   "32661523638": [
-    "BMP280",
-    "Senzor BME280 tlaku a teploty. Používa I2C alebo SPI zbernicu. Funguje tiež vynikajúco.",
-    "https://s.click.aliexpress.com/e/ZBme6yR"
+    "BMP280 3.3V",
+    "Senzor BME280 tlaku a teploty. Používa I2C alebo SPI zbernicu. Napájanie 3,3V",
+    "https://s.click.aliexpress.com/e/EUBAqvr"
   ],
   "32571982425": [
     "Anemometer/360° Wind Speed Sensor",
