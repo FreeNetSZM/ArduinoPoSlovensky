@@ -9,6 +9,13 @@
     <script type='text/javascript' src='https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.js'></script>
     <script>
       function ProduktyID() {   
+
+      }
+    </script>
+  </head>    
+  <body> 
+    <div id="1"></div>  
+    <script>
         var i;
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
@@ -21,13 +28,6 @@
         };
         xmlhttp.open("GET", "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.json", true);
         xmlhttp.send();
-      }
-    </script>
-  </head>    
-  <body> 
-    <div id="1"></div>  
-    <script>
-      ProduktyID(1);
     </script>
   </body>
 </html>
