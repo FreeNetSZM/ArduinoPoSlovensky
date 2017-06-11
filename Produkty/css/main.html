@@ -9,17 +9,15 @@
     <script>
       function ProduktID() { 
         var myObj;
+        var inner = arguments;
+        var i, id, div; 
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
-                myObj = JSON.parse(this.responseText);
-
-
-        
-        var i, id, div;        
+                myObj = JSON.parse(this.responseText);        
+               
         var max = Object.keys(myObj).length;
-        var arg = Object.keys(myObj);
-        var inner = arguments;
+        var arg = Object.keys(myObj);        
 
         for (i = 1; i < max; i++) {
           id = arg[i];
