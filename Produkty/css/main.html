@@ -19,7 +19,7 @@
         var max = Object.keys(myObj).length;
         var arg = Object.keys(myObj);        
 
-        for (i = 1; i < max; i++) {
+        for (i = 0; i < max; i++) {
           id = arg[i];
           div = document.createElement("div");
             div.setAttribute("id", id);
@@ -49,7 +49,7 @@
         }    
 
         $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.json', function(name) {
-           for (i = 1; i < max; i++) {
+           for (i = 0; i < max; i++) {
               id = arg[i];
               document.getElementById("NADPIS-" + id).innerHTML = name[id][0];
               document.getElementById("OPIS-" + id).innerHTML = name[id][1];
@@ -57,7 +57,7 @@
            }
         });  
 
-        for (i = 1; i < max; i++) {   
+        for (i = 0; i < max; i++) {   
           id = arg[i];
           (function(id) {         
             $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,evaluateScore&localCurrency=EUR&productId=' +id, function(data) {
