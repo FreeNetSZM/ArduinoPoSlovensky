@@ -16,7 +16,7 @@
             if (this.readyState == 4 && this.status == 200) {
                 var myObj = JSON.parse(this.responseText);
                 var max = Object.keys(myObj).length;
-                var arg = Object.keys(myObj.split(',')); 
+                var arg = Object.keys(myObj); 
                 ProduktID(1,arg);
             }
         };
