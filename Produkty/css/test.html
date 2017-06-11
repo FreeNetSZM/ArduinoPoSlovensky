@@ -17,7 +17,7 @@
                 var myObj = JSON.parse(this.responseText);
                 var max = Object.keys(myObj).length;
                 var arg = Object.keys(myObj); 
-                ProduktID(1,arg);
+                ProduktID(1,arg[]);
             }
         };
         xmlhttp.open("GET", "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.json", true);
