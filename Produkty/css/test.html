@@ -16,7 +16,7 @@
                 var myObj = JSON.parse(this.responseText);
                 var max = Object.keys(myObj).length;
                 var arg = Object.keys(myObj); 
-                ProduktID(arg);
+                ProduktID(1,arg);
             }
         };
         xmlhttp.open("GET", "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.json", true);
@@ -25,7 +25,7 @@
     </script>
   </head>    
   <body> 
-    <div id="1159957222"></div>  
+    <div id="1"></div>  
     <script>
       ProduktyID(1);
     </script>
