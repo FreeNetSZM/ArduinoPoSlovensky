@@ -8,14 +8,18 @@
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
     <script type='text/javascript' src='https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.js'></script>
     <script>
-      function ProduktyID() {    
-        var myObj;
-        var data;
+      function ProduktyID() {   
+        var i;
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
-                myObj = JSON.parse(this.responseText);
-                data = Object.keys(myObj);
+                var myObj = JSON.parse(this.responseText);
+                var max = Object.keys(myObj).length;
+                var arg = Object.keys(myObj); 
+                var data[];
+                for (i = 0; i < max; i++) {
+                 data[i] = arg[i];
+                } 
                 ProduktID(1,data);
             }
         };
