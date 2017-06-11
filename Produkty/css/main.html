@@ -8,11 +8,11 @@
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
     <script>
       function ProduktID() { 
+        var myObj;
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 myObj = JSON.parse(this.responseText);
-                document.getElementById("demo").innerHTML = Object.keys(myObj).length;
             }
         };
         xmlhttp.open("GET", "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.json", true);
