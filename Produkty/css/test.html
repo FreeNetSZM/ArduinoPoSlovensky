@@ -8,11 +8,12 @@
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
     <script type='text/javascript' src='/ArduinoPoSlovensky/Produkty/css/main.min.js'></script>
     <script>
-      function Produkty() {         
+      function Produkty() {    
+        var myObj;
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
-                var myObj = JSON.parse(this.responseText);
+                myObj = JSON.parse(this.responseText);
                 ProduktID(1, Object.keys(myObj));
             }
         };
