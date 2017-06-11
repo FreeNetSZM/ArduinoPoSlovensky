@@ -14,7 +14,7 @@
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 myObj = JSON.parse(this.responseText);
-                ProduktID(1, Object.keys(myObj));
+                ProduktID(1, 'Object.keys(myObj)');
             }
         };
         xmlhttp.open("GET", "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.json", true);
