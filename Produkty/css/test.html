@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="sk">     
   <head>         
@@ -7,11 +6,6 @@
     <title>Arduino na AliExpresse</title>
     <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
     <script type='text/javascript' src='https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.js'></script>
-    <script>
-      function ProduktyID() {   
-
-      }
-    </script>
   </head>    
   <body> 
     <div id="1"></div>  
@@ -23,7 +17,7 @@
                 var myObj = JSON.parse(this.responseText);
                 var max = Object.keys(myObj).length;
                 var arg = Object.keys(myObj); 
-                ProduktID(1,arg);
+                ProduktID(1,1159957222);
             }
         };
         xmlhttp.open("GET", "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.json", true);
