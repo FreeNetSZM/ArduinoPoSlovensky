@@ -14,8 +14,7 @@
             if (this.readyState == 4 && this.status == 200) {
                 myObj = JSON.parse(this.responseText);
 
-        xmlhttp.open("GET", "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.json", true);
-        xmlhttp.send();
+
         
         var i, id, div;        
         var max = Object.keys(myObj).length;
@@ -81,6 +80,8 @@
         } 
        }
       };
+        xmlhttp.open("GET", "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.json", true);
+        xmlhttp.send();
       }
     </script>
   </head>    
