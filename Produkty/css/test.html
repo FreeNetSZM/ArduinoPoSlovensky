@@ -11,13 +11,14 @@
     <div id="1"></div>  
     <script>
         var i;
+        var arg[0] = 1;
         var xmlhttp = new XMLHttpRequest();
         xmlhttp.onreadystatechange = function() {
             if (this.readyState == 4 && this.status == 200) {
                 var myObj = JSON.parse(this.responseText);
                 var max = Object.keys(myObj).length;
-                var arg = Object.keys(myObj); 
-                ProduktID(1,arg[0]);
+                arg[1] = 1159957222; 
+                ProduktID(arg);
             }
         };
         xmlhttp.open("GET", "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.min.json", true);
