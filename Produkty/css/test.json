@@ -1,0 +1,38 @@
+{
+  "32690066582": [
+    "Logic Level Shifter - 4 channel (10ks)",
+    "Logický konvertor úrovne je malé zariadenie, ktoré bezpečne zníži nadol 5V signály na 3.3V signál a opačne zvýši z 3.3V na 5V signál v rovnakom čase. Je obojsmerný.",
+    "https://s.click.aliexpress.com/e/NfUVr3v",
+    "2259,2264,2600"
+  ],  
+  "32555956886": [
+    "DS18B20 modul",
+    "Senzor DS18B20 Dallas modul na meranie teploty -55°C~125°C (±0.5°C). Tento model má aj LED indikáciu napájania. Pull-up rezistor je integrovaný.",
+    "https://s.click.aliexpress.com/e/3VbY3n6",
+    "2259,2264"
+  ],
+  "32761265326": [
+    "DHT22 modul",
+    "Senzor DHT-22 modul na meranie teploty -40~80°C (±0.5°C) a vlhkosti 0%~100%RH (±2%RH).",
+    "https://s.click.aliexpress.com/e/2fia2r3",
+    "2259,2264,"
+  ],
+  "32569654890": [
+    "DHT11 modul",
+    "Senzor DHT-11 modul na meranie teploty 0~50°C (±2°C) a vlhkosti 20%~80%RH (±5%RH).",
+    "https://s.click.aliexpress.com/e/EEQrrNZ",
+    "2259,2264"
+  ],
+  "1967750200": [
+    "Arduino MEGA2560 s USB káblom ",
+    "Arduino MEGA2560 R3 s čipom ATmega2560-16AU CH340G dodávaný s USB káblom",
+    "https://s.click.aliexpress.com/e/zFUBIyB",
+    "2259,2264,2600"
+  ],
+  "32765699087": [
+    "Arduino UNO bez USB káblu",
+    "Toto je to Arduino UNO R3, ktoré potrebujete pre svoje projekty",
+    "https://s.click.aliexpress.com/e/FqnMjyv",
+    "2259,2264,2600"
+  ]
+}
