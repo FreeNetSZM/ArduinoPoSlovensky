@@ -7,10 +7,10 @@ S503 - Shop Senzory: Vzduch, plyny
 S504 - Shop Senzory: Pohyb, zvuk
 S505 - Shop Senzory: Svetlo
 S506 - Shop Senzory: Napájanie, prúd
-S301 - Shop Súčiastky: Rezistory
-S302 - Shop Súčiastky: Kondenzátory
-S303 - Shop Súčiastky: Diódy
-S304 - Shop Súčiastky: Tranzistory
+S301 - Shop Súčiastky: Rezistory        + Teória
+S302 - Shop Súčiastky: Kondenzátory     + Teória
+S303 - Shop Súčiastky: Diódy            + Teória
+S304 - Shop Súčiastky: Tranzistory      + Teória
 
 H10 - Hardware
 H11 - Hardware Arduino UNO
