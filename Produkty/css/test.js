@@ -4,9 +4,9 @@ function ProduktID() {
     console.log(arg);
     for (var id in name) {       
       console.log(id);
-      console.log(name[id][3].indexOf("2600"));
+      console.log(name[id][3].indexOf(arg[0]));
             
-      if (name[id][3].indexOf(arg.toString()) > -1) {      
+      if (name[id][3].indexOf(arg[0]) > -1) {      
         console.log(name[id][0]);
         }
       }
