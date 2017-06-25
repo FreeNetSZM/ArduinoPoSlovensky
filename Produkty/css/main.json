@@ -27,7 +27,7 @@
     "Logic Level Shifter - 4 channel (10ks)",
     "Logický konvertor úrovne je malé zariadenie, ktoré bezpečne zníži nadol 5V signály na 3.3V signál a opačne zvýši z 3.3V na 5V signál v rovnakom čase. Je obojsmerný.",
     "https://s.click.aliexpress.com/e/NfUVr3v",
-    "0,"
+    "P52,"
   ],
   "32555956886": [
     "DS18B20 modul",
@@ -81,7 +81,7 @@
     "Starter Kit Arduino UNO",
     "Štartovací balíček Arduino UNO R3, USB kábel, nepájivé kontaktné pole, prepojovacie vodiče, konektor na 9V batériu",
     "https://s.click.aliexpress.com/e/mQNNNZF",
-    "0,"
+    "P52,"
   ],
   "32430814009": [
     "Starter Kit Arduino UNO mini",
@@ -213,7 +213,7 @@
     "Arduino Nano s USB káblom",
     "Arduino Nano V3.0 doska s čipom ATmega328P s USB káblom",
     "https://s.click.aliexpress.com/e/3jMn6A6",
-    "P50,P51,"
+    "P50,P51,P52"
   ],
   "32432434552": [
     "Arduino Nano",
@@ -351,7 +351,7 @@
     "Breadboard s napájaním a s káblikmi",
     "Nepájivé kontaktné pole s napájaním spolu s drôtmi. Toto je samotný základ pre vaše projekty.",
     "https://s.click.aliexpress.com/e/2JIEi2J",
-    "P50,P51,"
+    "P50,P51,P52,"
   ],
   "32326612211": [
     "Breadboard veľký",
@@ -441,25 +441,25 @@
     "BME280 5V",
     "Senzor BME280 na meranie tlaku, teploty a vlhkosti - 3 senzory v jednom. Využíva I2C zbernicu. Napájanie 5V.",
     "https://s.click.aliexpress.com/e/Mbuvnme",
-    "0,"
+    "P52,"
   ],
   "32803623878": [
     "BME280 3.3V",
     "Senzor BME280 na meranie tlaku, teploty a vlhkosti - 3 senzory v jednom. Využíva I2C alebo SPI zbernicu. Napájanie 3,3V.",
     "https://s.click.aliexpress.com/e/zvBauNb",
-    "0,"
+    "P52,"
   ],
   "32797485976": [
     "BMP280 5V",
     "Senzor BME280 tlaku a teploty. Používa I2C zbernicu. Napájanie 5V",
     "https://s.click.aliexpress.com/e/jMbAy3J",
-    "0,"
+    "P52,"
   ],
   "32661523638": [
     "BMP280 3.3V",
     "Senzor BME280 tlaku a teploty. Používa I2C alebo SPI zbernicu. Napájanie 3,3V",
     "https://s.click.aliexpress.com/e/EUBAqvr",
-    "0,"
+    "P52,"
   ],
   "32571982425": [
     "Anemometer/360° Wind Speed Sensor",
