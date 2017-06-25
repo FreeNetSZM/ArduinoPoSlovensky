@@ -1,1 +1,13 @@
-101 -
+101 - Shop Arduino
+201 - Shop Príslušenstvo
+401 - Shop Prototyping
+501 - Shop Senzory: Teplota, vlhkosť
+502 - Shop Senzory: Tlak, vietor
+503 - Shop Senzory: Vzduch, plyny
+504 - Shop Senzory: Pohyb, zvuk
+505 - Shop Senzory: Svetlo
+506 - Shop Senzory: Napájanie, prúd
+301 - Shop Súčiastky: Rezistory
+302 - Shop Súčiastky: Kondenzátory
+303 - Shop Súčiastky: Diódy
+304 - Shop Súčiastky: Tranzistory
