@@ -4,7 +4,7 @@ function ProduktID() {
     console.log(name);
     for (var i in name) {
         if (name[i][3].indexOf(arg) > -1) {      
-        console.log(name[i][0]);
+        console.log(Object.keys(name[i]));
         }
       }
     
