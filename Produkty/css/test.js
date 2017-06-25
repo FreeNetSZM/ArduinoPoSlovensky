@@ -2,7 +2,6 @@ function ProduktID() {
   var arg = arguments;
   $.getJSON('https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/css/main.json', function(name) { 
     for (var id in name) {          
-      console.log(name[id][3].indexOf(arg[0]));
       if (name[id][3].indexOf(arg[0]) > -1) {           
         div = document.createElement("div");
         div.setAttribute("id", id);
