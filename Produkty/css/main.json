@@ -155,16 +155,10 @@
     "https://s.click.aliexpress.com/e/rVr3n6q",
     "H13,H16,S201,"
   ],
-  "32602077173": [
-    "Arduino Leonardo",
-    "Arduino Leonardo R3 doska s čipom ATmega32u4 16MHz 5V, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, bez USB káblu",
-    "https://s.click.aliexpress.com/e/QBubYjU",
-    "H12,S101,"
-  ],
-  "32603871515": [
-    "Arduino Leonardo s USB káblom",
-    "Arduino Leonardo R3 doska s čipom ATmega32u4 16MHz 5V, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, s USB káblom",
-    "https://s.click.aliexpress.com/e/VnMFYvZ",
+  "32269525920": [
+    "Arduino Leonardo Pro Micro",
+    "Arduino Leonardo v malom prevedení s čipom ATmega32u4 16MHz 5V, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, bez USB káblu",
+    "https://s.click.aliexpress.com/e/FeQFamy",
     "H12,S101,"
   ],
   "32310214921": [
@@ -172,12 +166,6 @@
     "Arduino Leonardo R3 doska s čipom ATmega32u4 16MHz 5V, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, s USB káblom",
     "https://s.click.aliexpress.com/e/eQnqnUZ",
     "H10,H12,S101,"
-  ],
-  "32742233656": [
-    "Arduino Leonardo s USB káblom",
-    "Arduino Leonardo R3 doska s čipom ATmega32u4 16MHz 5V, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, s USB káblom",
-    "https://s.click.aliexpress.com/e/7IQFYVj",
-    "H12,S101,"
   ],
   "32636800949": [
     "Arduino LilyPad USB",
@@ -197,10 +185,10 @@
     "https://s.click.aliexpress.com/e/3Z7AuJU",
     "H18,S201,"
   ],
-  "32709613337": [
-    "FT232 programátor pre Arduino LilyPad Main Board",
-    "Programátor FT232 3.3V 5V FT232 pre Arduino LilyPad 328",
-    "https://s.click.aliexpress.com/e/ImY3vZZ",
+  "32790267245": [
+    "FTDI Basic programátor pre Arduino LilyPad Main Board",
+    "Programátor FTDI Basic 5V pre Arduino LilyPad 328",
+    "https://s.click.aliexpress.com/e/3FU766u",
     "H18,S201,"
   ],
   "32531372300": [
@@ -215,10 +203,10 @@
     "https://s.click.aliexpress.com/e/3jMn6A6",
     "P50,P51,P52,H10,H13,S101,"
   ],
-  "32432434552": [
+  "32574307428": [
     "Arduino Nano",
     "Arduino Nano V3.0 doska s čipom ATmega328P bez USB káblu",
-    "https://s.click.aliexpress.com/e/BYbufE6",
+    "https://s.click.aliexpress.com/e/Fu7eAyf",
     "H13,S101,"
   ],
   "32686034526": [
@@ -575,10 +563,10 @@
     "https://s.click.aliexpress.com/e/2RfUBMn",
     "S504,"
   ],
-  "32538723699": [
+  "32808956268": [
     "MMA8452Q (MMA7361)",
     "Trojosý digitálny modul zrýchlenia (akcelerometer) a snímač naklonenia MMA8452Q (MMA7361), napájanie 3V~5V DC, výstup I2C",
-    "https://s.click.aliexpress.com/e/IUVF2NB",
+    "https://s.click.aliexpress.com/e/rbeiAYN",
     "S504,"
   ],
   "32437163845": [
