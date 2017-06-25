@@ -46,11 +46,9 @@ function ProduktID() {
             $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getAppPromotionProduct/38404?productId=' +id, function(img) {
               if (img.result == undefined) {document.getElementById("IMG-" + id).src = "https://freenetszm.github.io/ArduinoPoSlovensky/Produkty/images/aliexpress.jpg";} 
                 else {document.getElementById("IMG-" + id).src = img.result.image220;}  
-            });   
-          })(id);       
-        
-        
-        }
-      }    
-  });  
+            });
+        })(id);
+      }
+    }  
+  });
 }
