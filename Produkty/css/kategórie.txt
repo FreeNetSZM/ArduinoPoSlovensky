@@ -1,13 +1,27 @@
-101 - Shop Arduino
-201 - Shop Príslušenstvo
-401 - Shop Prototyping
-501 - Shop Senzory: Teplota, vlhkosť
-502 - Shop Senzory: Tlak, vietor
-503 - Shop Senzory: Vzduch, plyny
-504 - Shop Senzory: Pohyb, zvuk
-505 - Shop Senzory: Svetlo
-506 - Shop Senzory: Napájanie, prúd
-301 - Shop Súčiastky: Rezistory
-302 - Shop Súčiastky: Kondenzátory
-303 - Shop Súčiastky: Diódy
-304 - Shop Súčiastky: Tranzistory
+S101 - Shop Arduino
+S201 - Shop Príslušenstvo
+S401 - Shop Prototyping
+S501 - Shop Senzory: Teplota, vlhkosť
+S502 - Shop Senzory: Tlak, vietor
+S503 - Shop Senzory: Vzduch, plyny
+S504 - Shop Senzory: Pohyb, zvuk
+S505 - Shop Senzory: Svetlo
+S506 - Shop Senzory: Napájanie, prúd
+S301 - Shop Súčiastky: Rezistory
+S302 - Shop Súčiastky: Kondenzátory
+S303 - Shop Súčiastky: Diódy
+S304 - Shop Súčiastky: Tranzistory
+
+H10 - Hardware
+H11 - Hardware Arduino UNO
+H12 - Hardware Arduino Leonardo
+H13 - Hardware Arduino Nano
+H14 - Hardware Arduino MEGA2560
+H15 - Hardware Arduino Due
+H16 - Hardware Arduino Ethernet
+H17 - Hardware Arduino Yún
+H18 - Hardware Arduino LilyPad
+
+P50 - Projekty DHT
+P51 - Projekty DS18B20 
+P52 - Projekty BME280
