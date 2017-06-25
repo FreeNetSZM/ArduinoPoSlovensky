@@ -33,19 +33,19 @@
     "DS18B20 modul",
     "Senzor DS18B20 Dallas modul na meranie teploty -55°C~125°C (±0.5°C). Tento model má aj LED indikáciu napájania. Pull-up rezistor je integrovaný.",
     "https://s.click.aliexpress.com/e/3VbY3n6",
-    "0,"
+    "P51,"
   ],
   "32761265326": [
     "DHT22 modul",
     "Senzor DHT-22 modul na meranie teploty -40~80°C (±0.5°C) a vlhkosti 0%~100%RH (±2%RH).",
     "https://s.click.aliexpress.com/e/2fia2r3",
-    "50,"
+    "P50,"
   ],
   "32569654890": [
     "DHT11 modul",
     "Senzor DHT-11 modul na meranie teploty 0~50°C (±2°C) a vlhkosti 20%~80%RH (±5%RH).",
     "https://s.click.aliexpress.com/e/EEQrrNZ",
-    "50,"
+    "P50,"
   ],
   "32765699087": [
     "Arduino UNO bez USB káblu",
@@ -213,7 +213,7 @@
     "Arduino Nano s USB káblom",
     "Arduino Nano V3.0 doska s čipom ATmega328P s USB káblom",
     "https://s.click.aliexpress.com/e/3jMn6A6",
-    "50,"
+    "P50,P51,"
   ],
   "32432434552": [
     "Arduino Nano",
@@ -351,7 +351,7 @@
     "Breadboard s napájaním a s káblikmi",
     "Nepájivé kontaktné pole s napájaním spolu s drôtmi. Toto je samotný základ pre vaše projekty.",
     "https://s.click.aliexpress.com/e/2JIEi2J",
-    "50,"
+    "P50,P51,"
   ],
   "32326612211": [
     "Breadboard veľký",
@@ -411,31 +411,31 @@
     "DHT11 (2ks)",
     "Senzor DHT-11 na meranie teploty 0~50°C (±2°C) a vlhkosti 20%~80%RH (±5%RH). Je menej presný ale zas lacný.",
     "https://s.click.aliexpress.com/e/2ZnUrBA",
-    "50,"
+    "P50,"
   ],
   "32468969961": [
     "DHT22",
     "Senzor DHT-22 na meranie teploty -40~80°C (±0.5°C) a vlhkosti 0%~100%RH (±2%RH). Je už presnejší, na bežné meranie teploty a vlhkosti postačuje.",
     "https://s.click.aliexpress.com/e/BeujunA",
-    "50,"
+    "P50,"
   ],
   "32587460354": [
     "DS18B20 modul",
     "Senzor DS18B20 Dallas na meranie teploty -55°C~125°C (±0.5°C). Vynikajúci senzor na meranie teploty s integrovaným pull-up rezistorom.",
     "https://s.click.aliexpress.com/e/QRjiIIy",
-    "0,"
+    "P51,"
   ],
   "32736388682": [
     "5ks DALLAS DS18B20",
     "Senzor DS18B20 Dallas 5ks, meranie teploty -55°C~125°C (±0.5°C)",
     "https://s.click.aliexpress.com/e/Mvfa6Qb",
-    "0,"
+    "P51,"
   ],
   "32506864979": [
     "2ks DALLAS DS18B20 vodotesný",
     "Vodotesný senzor DS18B20 Dallas 2ks, meranie teploty -55°C~125°C (±0.5°C) napr. vonku alebo v bazéne, studni, ...",
     "https://s.click.aliexpress.com/e/beEa2FI",
-    "0,"
+    "P51,"
   ],
   "32661117200": [
     "BME280 5V",
