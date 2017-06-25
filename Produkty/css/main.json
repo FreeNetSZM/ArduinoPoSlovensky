@@ -15,7 +15,7 @@
     "Arduino MEGA2560 s USB káblom ",
     "Arduino MEGA2560 R3 s čipom ATmega2560-16AU CH340G dodávaný s USB káblom",
     "https://s.click.aliexpress.com/e/zFUBIyB",
-    "0,"
+    "H10,H14,"
   ],
   "1988431775": [
     "GPS GY-GPS6MV2 Ublox NEO-6M",
@@ -51,157 +51,157 @@
     "Arduino UNO bez USB káblu",
     "Toto je to Arduino UNO R3, ktoré potrebujete pre svoje projekty",
     "https://s.click.aliexpress.com/e/FqnMjyv",
-    "0,"
+    "H11,"
   ],
   "32657861317": [
     "Arduino UNO s USB káblom",
     "Arduino UNO R3 s čipom Atmega 328p v DIP púzdre dodávaný s USB káblom",
     "https://s.click.aliexpress.com/e/uF6UrZR",
-    "0,"
+    "H11,"
   ],
   "32664780300": [
     "Arduino UNO SMD bez USB káblu",
     "Arduino UNO R3 s čipom Atmega 328p tentokrát v SMD verzii",
     "https://s.click.aliexpress.com/e/fIIUbYR",
-    "0,"
+    "H11,"
   ],
   "32768431306": [
     "Arduino UNO SMD s USB káblom",
     "Arduino UNO R3 s čipom Atmega 328p v SMD verzii vrátane USB kábla",
     "https://s.click.aliexpress.com/e/IiieMNJ",
-    "0,"
+    "H11,"
   ],
   "32779555847": [
     "Arduino UNO s transparentnou krabičkou",
     "Arduino UNO R3 s čipom Atmega 328p dodávaný spolu s transparentnou krabičkou",
     "https://s.click.aliexpress.com/e/2vBeyFE",
-    "0,"
+    "H11,"
   ],
   "32543752387": [
     "Starter Kit Arduino UNO",
     "Štartovací balíček Arduino UNO R3, USB kábel, nepájivé kontaktné pole, prepojovacie vodiče, konektor na 9V batériu",
     "https://s.click.aliexpress.com/e/mQNNNZF",
-    "P52,"
+    "P52,H10,H11,"
   ],
   "32430814009": [
     "Starter Kit Arduino UNO mini",
     "Rozšírená štartovacia sada Arduino UNO R3 doplnené o farebné diódy, odpory, tlačítka, fotoodpor, mikrofón,..",
     "https://s.click.aliexpress.com/e/AMZvna2",
-    "0,"
+    "H11,"
   ],
   "32620337494": [
     "Starter Kit Arduino UNO Upgraded version",
     "Krabicové balenie štartovacieho balíčka s množstvom príslušenstva (displej, bzučiak, IR,  RFID, servomotor, joystick, relátko, teplomer, 74HC595, ...)",
     "https://s.click.aliexpress.com/e/UbuZfMR",
-    "0,"
+    "H11,"
   ],
   "32458422375": [
     "Arduino DUE s USB káblom",
     "Arduino DUE R3 s čipom ARM AT91SAM3X8E 32-bit 3.3V dodávané s USB káblom",
     "https://s.click.aliexpress.com/e/FeYVnmy",
-    "0,"
+    "H15,"
   ],
   "32531920004": [
     "Arduino DUE s USB káblom",
     "Arduino DUE R3 s čipom ARM AT91SAM3X8E 32-bit 3.3V dodávané s USB káblom",
     "https://s.click.aliexpress.com/e/zbAQF6m",
-    "0,"
+    "H15,"
   ],
   "32680588531": [
     "Arduino DUE s USB káblom",
     "Arduino DUE R3 s čipom ARM AT91SAM3X8E 32-bit 3.3V dodávané s USB káblom",
     "https://s.click.aliexpress.com/e/ja62bQf",
-    "0,"
+    "H10,H15"
   ],
   "32616402213": [
     "Arduino DUE s USB káblom",
     "Arduino DUE R3 s čipom ARM AT91SAM3X8E 32-bit 3.3V dodávané s USB káblom",
     "https://s.click.aliexpress.com/e/6mYvFQZ",
-    "0,"
+    "H15,"
   ],
   "32650813856": [
     "Arduino MEGA2560 s USB káblom",
     "Arduino MEGA2560 R3 s čipom ATmega2560-16AU 16U2 s USB káblom",
     "https://s.click.aliexpress.com/e/QN7eEU3",
-    "0,"
+    "H14,"
   ],
   "32560587613": [
     "Arduino MEGA2560 + Ethernet Shield W5100 a s USB káblom",
     "Arduino MEGA2560 s čipom ATmega2560-16AU CH340G s ethernetovým shieldom W5100 a s USB káblom",
     "https://s.click.aliexpress.com/e/MbUZ762",
-    "0,"
+    "H14,"
   ],
   "32709442003": [
     "Arduino Ethernet Shield W5100",
     "Najpoužívanejší ethernetový shield W5100 kompatibilný pre dosky Arduino UNO, MEGA2560 s čítačkou micro-SD kariet",
     "https://s.click.aliexpress.com/e/FqZZnMV",
-    "0,"
+    "H10,H16,"
   ],
   "32648546573": [
     "Ethernet LAN Network Module SPI",
     "Ethernetový modul ENC28J60 pre Arduino 3.3V",
     "https://s.click.aliexpress.com/e/N3nuz3V",
-    "0,"
+    "H16,"
   ],
   "32529983388": [
     "Ethernet LAN Network Module + SD Card Module",
     "Ethernetový modul ENC28J60 a modul pre SD karty pre Arduino 3.3V",
     "https://s.click.aliexpress.com/e/FujyBI6",
-    "0,"
+    "H16,"
   ],
   "32760546807": [
     "Ethernet Shield pre Arduino Nano",
     "Ethernetový shield s čipom ENC28J60 pre Arduino Nano",
     "https://s.click.aliexpress.com/e/rVr3n6q",
-    "0,"
+    "H13,H16"
   ],
   "32602077173": [
     "Arduino Leonardo",
     "Arduino Leonardo R3 doska s čipom ATmega32u4 16MHz 5V, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, bez USB káblu",
     "https://s.click.aliexpress.com/e/QBubYjU",
-    "0,"
+    "H12,"
   ],
   "32603871515": [
     "Arduino Leonardo s USB káblom",
     "Arduino Leonardo R3 doska s čipom ATmega32u4 16MHz 5V, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, s USB káblom",
     "https://s.click.aliexpress.com/e/VnMFYvZ",
-    "0,"
+    "H12,"
   ],
   "32310214921": [
     "Arduino Leonardo s USB káblom",
     "Arduino Leonardo R3 doska s čipom ATmega32u4 16MHz 5V, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, s USB káblom",
     "https://s.click.aliexpress.com/e/eQnqnUZ",
-    "0,"
+    "H10,H12,"
   ],
   "32742233656": [
     "Arduino Leonardo s USB káblom",
     "Arduino Leonardo R3 doska s čipom ATmega32u4 16MHz 5V, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, s USB káblom",
     "https://s.click.aliexpress.com/e/7IQFYVj",
-    "0,"
+    "H12,"
   ],
   "32636800949": [
     "Arduino LilyPad USB",
     "Arduino LilyPad USB s mikrokontrolérom ATmega32U4",
     "https://s.click.aliexpress.com/e/rni6yFa",
-    "0,"
+    "H18,"
   ],
   "32612833465": [
     "Arduino LilyPad Main Board",
     "Arduino LilyPad s mikrokontrolérom ATmega328P",
     "https://s.click.aliexpress.com/e/y7qvN7Q",
-    "0,"
+    "H10,H18,"
   ],
   "32675502754": [
     "Arduino LilyPad Coin Cell Battery Holder CR2032",
     "Držiak batérie CR2032 pre Arduino LilyPad",
     "https://s.click.aliexpress.com/e/3Z7AuJU",
-    "0,"
+    "H18,"
   ],
   "32709613337": [
     "FT232 programátor pre Arduino LilyPad Main Board",
     "Programátor FT232 3.3V 5V FT232 pre Arduino LilyPad 328",
     "https://s.click.aliexpress.com/e/ImY3vZZ",
-    "0,"
+    "H18,"
   ],
   "32531372300": [
     "Arduino Nano bez USB káblu",
@@ -213,43 +213,43 @@
     "Arduino Nano s USB káblom",
     "Arduino Nano V3.0 doska s čipom ATmega328P s USB káblom",
     "https://s.click.aliexpress.com/e/3jMn6A6",
-    "P50,P51,P52"
+    "P50,P51,P52,H10,H13,"
   ],
   "32432434552": [
     "Arduino Nano",
     "Arduino Nano V3.0 doska s čipom ATmega328P bez USB káblu",
     "https://s.click.aliexpress.com/e/BYbufE6",
-    "0,"
+    "H13,"
   ],
   "32686034526": [
     "5ks Arduino Nano",
     "5 kusov Arduino Nano s čipom ATmega328P bez USB káblov",
     "https://s.click.aliexpress.com/e/AeUzNjY",
-    "0,"
+    "H13,"
   ],
   "32791389562": [
     "New Original YUN controller board",
     "Originálny YUN mikrokontrolér s dvomi procesoromi Atmega32U4 + Atheros AR9331 s ethernetom, WiFi, slotom pre micro-SD",
     "https://s.click.aliexpress.com/e/eqjiU3V",
-    "0,"
+    "H17,"
   ],
   "32276884418": [
     "Yun Shield Compatible with Arduino",
     "YUN shield kompatibilný s doskami Arduino UNO MEGA2560 Leonardo",
     "https://s.click.aliexpress.com/e/QfQF6u3",
-    "0,"
+    "H10,H17,"
   ],
   "32519232040": [
     "New Version Yun Shield v2.4 All-in-one",
     "YUN shield kompatibilný s doskami Arduino UNO MEGA2560 Leonardo",
     "https://s.click.aliexpress.com/e/NZV7mIE",
-    "0,"
+    "H17,"
   ],
   "32464416790": [
     "Yun Shield For Arduino",
     "YUN shield kompatibilný s doskami Arduino UNO MEGA2560 Leonardo",
     "https://s.click.aliexpress.com/e/feuZRr3",
-    "0,"
+    "H17,"
   ],
   "32323214980": [
     "120pcs Electrolytic Capacitor",
@@ -351,7 +351,7 @@
     "Breadboard s napájaním a s káblikmi",
     "Nepájivé kontaktné pole s napájaním spolu s drôtmi. Toto je samotný základ pre vaše projekty.",
     "https://s.click.aliexpress.com/e/2JIEi2J",
-    "P50,P51,P52,"
+    "P50,P51,P52,H14"
   ],
   "32326612211": [
     "Breadboard veľký",
