@@ -14,7 +14,7 @@ S301 - Shop Súčiastky: Rezistory          + Teória
   S303 - Shop Súčiastky: Diódy            + Teória
   S304 - Shop Súčiastky: Tranzistory      + Teória
 
-H10 - Hardware
+H10 - Hardware Arduino História
 H11 - Hardware Arduino UNO
 H12 - Hardware Arduino Leonardo
 H13 - Hardware Arduino Nano
