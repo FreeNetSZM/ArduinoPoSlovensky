@@ -39,7 +39,8 @@
             var dest = document.getElementById('dest');
             dest.innerHTML = '';
             dest.appendChild(iframe);
-        }
+          }
+        </script>
       ]]>
     </Content>
 </Module>
