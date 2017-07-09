@@ -149,11 +149,13 @@
       else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
       else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
       else{
-      gapi.comments.render('comments', {
-            href: href,   
-            width: data_width,
-            first_party_property: 'BLOGGER',
-            view_type: 'FILTERED_POSTMOD'      }
+          gapi.comments.render('comments', {
+              href: href,   
+              width: data_width,
+              first_party_property: 'BLOGGER',
+              view_type: 'FILTERED_POSTMOD'
+          });
+       }
     </script>
     <script type="text/javascript">
       var href = document.referrer.split('?')[0];
