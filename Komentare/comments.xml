@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
 <ModulePrefs title="Google+ Comments"
- height="10"
+ height="300"
  description="Google+ Comments gadget includes google+ widget plugin for comments, Facebook share button, Linkedin Share button, Twitter tweet button, Twitter follow button, and Google plus one button."
  author="Simon Garcia"
  author_email="admin@joinrsite.com"
@@ -21,7 +21,7 @@
 <UserPref name="if_inshare_bool" display_name="Will display Linkedin share button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
 <UserPref name="if_pin_bool" display_name="Will display Pin it button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
 <UserPref name="if_gplus_bool" display_name="Will display Google plus one button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
-<UserPref name="g_page_id" display_name="Google+ Page ID Number. eg: https://plus.google.com/[ID_Number]" datatype="string" required="false" default_value="106818711090493801335"/>
+<UserPref name="g_page_id" display_name="Google+ Page ID Number. eg: https://plus.google.com/[ID_Number]" datatype="string" required="false" default_value="+ŠášikRastislav"/>
   <UserPref name="get_data_width" display_name="Sets the width of the comments widget." datatype="string" required="true" default_value="642"/>
 <Content type="html"><![CDATA[
 <html>
