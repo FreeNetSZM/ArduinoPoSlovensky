@@ -5,7 +5,7 @@
         <p id="demo"></p>
         <script>
           document.getElementById("demo").innerHTML = 
-          "The full URL of this page is:<br>" + window.location.pathname;
+          "The full URL of this page is:<br>" + window.location.hostname;
         </script>
     ]]>
 </Content>
