@@ -14,6 +14,7 @@
         <script type="text/javascript"> 
           gadgets.util.registerOnLoadHandler(doRender); 
           function doRender(){ 
+              var prefs = new _IG_Prefs();
               var iframeURL = prefs.getString('iframeURL');
               document.getElementById("demo").innerHTML = 
               "The full URL of this page is:<br>" + iframeURL;
