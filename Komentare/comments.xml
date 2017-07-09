@@ -25,8 +25,7 @@
   <UserPref name="get_data_width" display_name="Sets the width of the comments widget." datatype="string" required="true" default_value="850"/>
 <Content type="html"><![CDATA[
 <html>
-  <head>
-    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script> 
+  <head> 
     <style type="text/css">
       .g-comments, .g-comments * {
       width:100% !important;
@@ -137,8 +136,7 @@
         </script>
       </tr>
     </table>
-    <div id="comments"></div>
-   
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>   
     <script type="text/javascript">
       var href = document.referrer.split('?')[0];
       var prefs = new gadgets.Prefs();
