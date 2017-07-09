@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Module>
 <ModulePrefs title="Google+ Comments"
- height="300"
+ height="700"
  description="Google+ Comments gadget includes google+ widget plugin for comments, Facebook share button, Linkedin Share button, Twitter tweet button, Twitter follow button, and Google plus one button."
  author="Simon Garcia"
  author_email="admin@joinrsite.com"
@@ -15,14 +15,14 @@
 <UserPref name="if_custom_domain" display_name="Will not display gadget on (sites.google.com) URLs if checked. Displays only on custom domain." datatype="bool" default_value="false"/>
 <UserPref name="announce_page_url" display_name="Will not display gadget on URL placed here. eg: Announcements page (optional)" datatype="string" required="false" default_value=""/>
 <UserPref name="if_tweet_bool" display_name="Will display Twitter tweet button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
-<UserPref name="if_twfollow_bool" display_name="Will display Twitter follow button if checked.  (uncheck to not display) (username required)" datatype="bool" default_value="true"/>
+<UserPref name="if_twfollow_bool" display_name="Will display Twitter follow button if checked.  (uncheck to not display) (username required)" datatype="bool" default_value="false"/>
 <UserPref name="via" display_name="Twitter username for via. (optional)" datatype="string" required="false" default_value=""/>
 <UserPref name="if_fbshare_bool" display_name="Will display Facebook share button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
 <UserPref name="if_inshare_bool" display_name="Will display Linkedin share button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
 <UserPref name="if_pin_bool" display_name="Will display Pin it button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
 <UserPref name="if_gplus_bool" display_name="Will display Google plus one button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
 <UserPref name="g_page_id" display_name="Google+ Page ID Number. eg: https://plus.google.com/[ID_Number]" datatype="string" required="false" default_value="+ŠášikRastislav"/>
-  <UserPref name="get_data_width" display_name="Sets the width of the comments widget." datatype="string" required="true" default_value="642"/>
+  <UserPref name="get_data_width" display_name="Sets the width of the comments widget." datatype="string" required="true" default_value="850"/>
 <Content type="html"><![CDATA[
 <html>
   <head>
@@ -33,12 +33,12 @@
       #google-plus-comments {
       padding: 25px;
       }
-      a:link {color:#000000;}      /* unvisited link */
-      a:visited {color:#000000;}  /* visited link */
-      a:hover {color:#3d85c6;}  /* mouse over link */
-      a:active {color:#3d85c6;}  /* selected link */
-      a:link {text-decoration:none;}    /* unvisited link */
-      a:visited {text-decoration:none;} /* visited link */
+      a:link {color:#000000;}                /* unvisited link */
+      a:visited {color:#000000;}             /* visited link */
+      a:hover {color:#3d85c6;}               /* mouse over link */
+      a:active {color:#3d85c6;}              /* selected link */
+      a:link {text-decoration:none;}         /* unvisited link */
+      a:visited {text-decoration:none;}      /* visited link */
       a:hover {text-decoration:underline;}   /* mouse over link */
       a:active {text-decoration:underline;}  /* selected link */
     </style>
