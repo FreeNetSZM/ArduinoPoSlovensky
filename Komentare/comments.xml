@@ -11,10 +11,13 @@
     <Content type="html" view="default,canvas">
       <![CDATA[
         <p id="demo"></p>
-        <script>
-          var iframeURL = prefs.getString('iframeURL');
-          document.getElementById("demo").innerHTML = 
-          "The full URL of this page is:<br>" + iframeURL;
+        <script type="text/javascript"> 
+          gadgets.util.registerOnLoadHandler(doRender); 
+          function doRender(){ 
+              var iframeURL = prefs.getString('iframeURL');
+              document.getElementById("demo").innerHTML = 
+              "The full URL of this page is:<br>" + iframeURL;
+          }
         </script>
       ]]>
     </Content>
