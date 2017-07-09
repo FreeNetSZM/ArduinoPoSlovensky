@@ -1,38 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
+
+<head>
     <base target="_top">
-    <script type='text/javascript' src='/ArduinoPoSlovensky/Tools/js/SMD_rezistor.min.js'></script>
-  </head>
-  <body>
+    <script type='text/javascript'>
+        var multArray = new Array(1, 10, 100, 1000, 10000, 1000000, 10000000, 100000000, 1000000000, 10000000000);
+
+        function calculate(varValue) {
+            var digits = document.forms["vres"].valoreres.value.split('');
+            //var digits = varValue.toString().split('');
+            if (digits.length == 3) {
+                var value1 = digits[0];
+                var value2 = digits[1];
+                var varMulti = digits[2];
+
+                var numbervalue = parseInt(value1 + value2);
+                var numberpf = (numbervalue * multArray[varMulti]);
+                var valueresult;
+                if (numberpf < 1000) {
+                    valueresult = numberpf + "&#x2126;";
+                }
+                if (numberpf >= 1000 && numberpf < 1000000) {
+                    valueresult = (numberpf / 1000) + "K&#x2126;";
+                }
+                if (numberpf >= 1000000) {
+                    valueresult = (numberpf / 10000000) + "M&#x2126;";
+                }
+            } else {
+                //alert("Inserisci un codice a 3 cifre");
+                document.getElementById('coderesult').innerHTML = "?";
+            }
+            document.getElementById('coderesult').innerHTML = valueresult;
+            //alert("Resistor Value " + valueresult);
+        }
+    </script>
+</head>
+
+<body>
     <div class="fusion-three-fourth three_fourth fusion-column">
-      <form id="vres">
-        <table border="0" style="margin:1px 1px 0px 1px;" width="100%" align="center">
-          <tbody>
-            <tr>
-              <td align="center">SMD hodnota<BR>
-                <input type="text" id="valoreres" name="valoreres" value="102" maxlength="3" style="width:80px;font-size:20px;margin:0px;padding:1px;padding-top:3px;padding-bottom:3px;padding-right:3px;text-align:center;background-color:#000000; color:#ffffdd;border-right:11px #cccccc solid;border-left:11px #cccccc solid;border-bottom:1px #000000 solid;border-top:1px #ffffff solid;" title="Enter the SMD Code">
-              </td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td align="center">
-                <h3>Hodnota odporu= <span id="coderesult">1KΩ</span></h3>
-              </td>
-            </tr>
-            <tr>
-              <td>&nbsp;</td>
-            </tr>
-            <tr>
-              <td align="center">
-                <a class="button small button darkgray fusion-button button-flat button-round button-small button-darkgray button-1 buttonshadow-1" type="button" target="_self" title="" href="javascript:calculate(valoreres);"><span class="fusion-button-text">Vypočítaj</span></a>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </form>
+        <form id="vres">
+            <table border="0" style="margin:1px 1px 0px 1px;" width="100%" align="center">
+                <tbody>
+                    <tr>
+                        <td align="center">SMD hodnota
+                            <BR>
+                            <input type="text" id="valoreres" name="valoreres" value="102" maxlength="3" style="width:80px;font-size:20px;margin:0px;padding:1px;padding-top:3px;padding-bottom:3px;padding-right:3px;text-align:center;background-color:#000000; color:#ffffdd;border-right:11px #cccccc solid;border-left:11px #cccccc solid;border-bottom:1px #000000 solid;border-top:1px #ffffff solid;" title="Enter the SMD Code">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <h3>Hodnota odporu= <span id="coderesult">1KΩ</span></h3>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td align="center">
+                            <a class="button small button darkgray fusion-button button-flat button-round button-small button-darkgray button-1 buttonshadow-1" type="button" target="_self" title="" href="javascript:calculate(valoreres);"><span class="fusion-button-text">Vypočítaj</span></a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </form>
     </div>
-  </body>
+</body>
+
 </html>
