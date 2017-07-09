@@ -25,164 +25,154 @@
   <UserPref name="get_data_width" display_name="Sets the width of the comments widget." datatype="string" required="true" default_value="642"/>
 <Content type="html"><![CDATA[
 <html>
-<head>
-<style type="text/css">
-.g-comments, .g-comments * {
-    width:100% !important;
-}
-#google-plus-comments {
-  padding: 25px;
-}
-a:link {color:#000000;}      /* unvisited link */
-a:visited {color:#000000;}  /* visited link */
-a:hover {color:#3d85c6;}  /* mouse over link */
-a:active {color:#3d85c6;}  /* selected link */
-a:link {text-decoration:none;}    /* unvisited link */
-a:visited {text-decoration:none;} /* visited link */
-a:hover {text-decoration:underline;}   /* mouse over link */
-a:active {text-decoration:underline;}  /* selected link */
-</style></head><body style="background-color:transparent; padding:0px 0px 0px 0px;">
-
-<script language="javascript" type="text/javascript">
-<!--
-function pop(url) {
-  newwindow=window.open(url,'name','height=435,width=670');
-  if (window.focus) {newwindow.focus()}
-  return false;
-}
-// -->
-</script>
-
-<table style="border: 0px solid #dcdcdc; padding:8px 8px 8px 8px;"><tr>
-
- <script type="text/javascript">
- var href = document.referrer.split('?')[0];
- var prefs = new gadgets.Prefs();
- var announce_page = prefs.getString("announce_page_url");
- var custom_domain = prefs.getBool("if_custom_domain");
-if(href == "" + announce_page + ""){}
-else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
-else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
-else if(prefs.getBool("if_inshare_bool") == false){}
-else{
- document.write("<td><a title=\"Share on Linkedin\" href=\"//www.linkedin.com/cws/share?url=" + encodeURIComponent(href) + "\" onclick=\"return pop('//www.linkedin.com/cws/share?url=" + encodeURIComponent(href) + "')\" target=\"_blank\"><img src=\"https://sites.google.com/a/joinrsite.com/gadgets/button/inmini.jpg\" border=\"0\" width=\"18\" height=\"18\" /></a></td>");
-}
- </script>
-
- <script type="text/javascript">
- var href = document.referrer.split('?')[0];
- var prefs = new gadgets.Prefs();
- var announce_page = prefs.getString("announce_page_url");
- var custom_domain = prefs.getBool("if_custom_domain");
-if(href == "" + announce_page + ""){}
-else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
-else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
-else if(prefs.getBool("if_fbshare_bool") == false){}
-else{
- document.write("<td><a title=\"Share on Facebook\" href=\"//www.facebook.com/sharer.php?u=" + href + "\" onclick=\"return pop('//www.facebook.com/sharer.php?u=" + href + "')\" target=\"_blank\"><img src=\"https://sites.google.com/a/joinrsite.com/gadgets/button/fbmini.png\" border=\"0\" width=\"17\" height=\"17\" /></a></td>");
-}
- </script>
-
- <script type="text/javascript">
- var href = document.referrer.split('?')[0];
- var prefs = new gadgets.Prefs();
- var via = prefs.getString("via");
- var announce_page = prefs.getString("announce_page_url");
- var custom_domain = prefs.getBool("if_custom_domain");
-if(href == "" + announce_page + ""){}
-else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
-else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
-else if(prefs.getBool("if_tweet_bool") == false){}
-else{
- document.write("<td><a title=\"Share on Twitter\" href=\"//twitter.com/share?text=Check out this link...&amp;url=" + href + "&amp;via=" + via + "&amp;hashtags=" + via + "\" onclick=\"return pop('//twitter.com/share?text=Check out this link...&amp;url=" + href + "&amp;via=" + via + "&amp;hashtags=" + via + "')\" target=\"_blank\"><img src=\"https://sites.google.com/a/joinrsite.com/gadgets/button/twmini.jpg\" border=\"0\" width=\"19\" height=\"19\" /></a></td>");
-}
- </script>
-
- <script type="text/javascript">
- var href = document.referrer.split('?')[0];
- var prefs = new gadgets.Prefs();
- var announce_page = prefs.getString("announce_page_url");
- var custom_domain = prefs.getBool("if_custom_domain");
-if(href == "" + announce_page + ""){}
-else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
-else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
-else if(prefs.getBool("if_pin_bool") == false){}
-else{
- document.write("<td><a href=\"//pinterest.com/pin/create/button/?url=" + encodeURIComponent(href) + "\" class=\"pin-it-button\" count-layout=\"none\" onclick=\"return pop('//pinterest.com/pin/create/button/?url=" + encodeURIComponent(href) + "')\" target=\"_blank\"><img border=\"0\" src=\"//assets.pinterest.com/images/pidgets/pin_it_button.png\" title=\"Pin It\" /></a></td>");
-}
- </script>
-
- <script type="text/javascript">
- var href = document.referrer.split('?')[0];
- var prefs = new gadgets.Prefs();
- var announce_page = prefs.getString("announce_page_url");
- var custom_domain = prefs.getBool("if_custom_domain");
-if(href == "" + announce_page + ""){}
-else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
-else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
-else if(prefs.getBool("if_gplus_bool") == false){}
-else{
- document.write("<td><div class=\"g-plusone\" data-size=\"medium\" data-annotation=\"inline\" data-width=\"300\" data-href=\"" + href + "\"></div></td>");
-}
- </script>
-
- <script type="text/javascript">
- var href = document.referrer.split('?')[0];
- var prefs = new gadgets.Prefs();
- var g_id = prefs.getString("g_page_id");
- var announce_page = prefs.getString("announce_page_url");
- var custom_domain = prefs.getBool("if_custom_domain");
-if(href == "" + announce_page + ""){}
-else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
-else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
-else{
- document.write("<td><div class=\"g-follow\" data-annotation=\"bubble\" data-height=\"20\" data-href=\"//plus.google.com/" + g_id + "\" data-rel=\"publisher\"></div></td>");
-}
- </script>
-
-</tr></table>
-
-<script type="text/javascript" src="//apis.google.com/js/plusone.js"></script>
-
- <script type="text/javascript">
- var href = document.referrer.split('?')[0];
- var prefs = new gadgets.Prefs();
- var announce_page = prefs.getString("announce_page_url");
- var custom_domain = prefs.getBool("if_custom_domain");
- var data_width = prefs.getString("get_data_width");
-if(href == "" + announce_page + ""){}
-else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
-else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
-else{
- document.write("<div class=\"g-comments\" data-href=\"" + href + "\" data-width=\"" + data_width + "\" data-first_party_property=\"BLOGGER\" data-view_type=\"FILTERED_POSTMOD\"></div></div><div align=\"left\"><table style=\"border: 0px solid #dcdcdc; padding:8px 8px 8px 8px;\" width=\"" + data_width + "\"><tr>");
-}
- </script>
-
- <script type="text/javascript">
- var href = document.referrer.split('?')[0];
- var prefs = new gadgets.Prefs();
- var via = prefs.getString("via");
- var announce_page = prefs.getString("announce_page_url");
- var custom_domain = prefs.getBool("if_custom_domain");
-if(href == "" + announce_page + ""){}
-else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
-else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
-else if(prefs.getBool("if_twfollow_bool") == false){}
-else{
- document.write("<td align=\"right\"><iframe src=\"//platform.twitter.com/widgets/follow_button.html?screen_name=" + via + "\" scrolling=\"no\" frameborder=\"0\" style=\"width:300px; height:21px;\" allowTransparency=\"true\"></iframe></td>");
-}
- </script>
-
- </body></html>
-
-    <script charset="utf-8">
-        function resize() 
-        {
-        gadgets.window.adjustHeight();
- t = setTimeout("resize()",1000);
-        }
-    window.onload=resize();
+  <head>
+    <style type="text/css">
+      .g-comments, .g-comments * {
+      width:100% !important;
+      }
+      #google-plus-comments {
+      padding: 25px;
+      }
+      a:link {color:#000000;}      /* unvisited link */
+      a:visited {color:#000000;}  /* visited link */
+      a:hover {color:#3d85c6;}  /* mouse over link */
+      a:active {color:#3d85c6;}  /* selected link */
+      a:link {text-decoration:none;}    /* unvisited link */
+      a:visited {text-decoration:none;} /* visited link */
+      a:hover {text-decoration:underline;}   /* mouse over link */
+      a:active {text-decoration:underline;}  /* selected link */
+    </style>
+  </head>
+  <body style="background-color:transparent; padding:0px 0px 0px 0px;">
+    <script language="javascript" type="text/javascript">
+      <!--
+      function pop(url) {
+        newwindow=window.open(url,'name','height=435,width=670');
+        if (window.focus) {newwindow.focus()}
+        return false;
+      }
+      // -->
     </script>
-
+    <table style="border: 0px solid #dcdcdc; padding:8px 8px 8px 8px;">
+      <tr>
+        <script type="text/javascript">
+          var href = document.referrer.split('?')[0];
+          var prefs = new gadgets.Prefs();
+          var announce_page = prefs.getString("announce_page_url");
+          var custom_domain = prefs.getBool("if_custom_domain");
+          if(href == "" + announce_page + ""){}
+          else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
+          else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
+          else if(prefs.getBool("if_inshare_bool") == false){}
+          else{
+          document.write("<td><a title=\"Share on Linkedin\" href=\"//www.linkedin.com/cws/share?url=" + encodeURIComponent(href) + "\" onclick=\"return pop('//www.linkedin.com/cws/share?url=" + encodeURIComponent(href) + "')\" target=\"_blank\"><img src=\"https://sites.google.com/a/joinrsite.com/gadgets/button/inmini.jpg\" border=\"0\" width=\"18\" height=\"18\" /></a></td>");
+          }
+        </script>
+        <script type="text/javascript">
+          var href = document.referrer.split('?')[0];
+          var prefs = new gadgets.Prefs();
+          var announce_page = prefs.getString("announce_page_url");
+          var custom_domain = prefs.getBool("if_custom_domain");
+          if(href == "" + announce_page + ""){}
+          else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
+          else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
+          else if(prefs.getBool("if_fbshare_bool") == false){}
+          else{
+          document.write("<td><a title=\"Share on Facebook\" href=\"//www.facebook.com/sharer.php?u=" + href + "\" onclick=\"return pop('//www.facebook.com/sharer.php?u=" + href + "')\" target=\"_blank\"><img src=\"https://sites.google.com/a/joinrsite.com/gadgets/button/fbmini.png\" border=\"0\" width=\"17\" height=\"17\" /></a></td>");
+          }
+        </script>
+        <script type="text/javascript">
+          var href = document.referrer.split('?')[0];
+          var prefs = new gadgets.Prefs();
+          var via = prefs.getString("via");
+          var announce_page = prefs.getString("announce_page_url");
+          var custom_domain = prefs.getBool("if_custom_domain");
+          if(href == "" + announce_page + ""){}
+          else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
+          else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
+          else if(prefs.getBool("if_tweet_bool") == false){}
+          else{
+          document.write("<td><a title=\"Share on Twitter\" href=\"//twitter.com/share?text=Check out this link...&amp;url=" + href + "&amp;via=" + via + "&amp;hashtags=" + via + "\" onclick=\"return pop('//twitter.com/share?text=Check out this link...&amp;url=" + href + "&amp;via=" + via + "&amp;hashtags=" + via + "')\" target=\"_blank\"><img src=\"https://sites.google.com/a/joinrsite.com/gadgets/button/twmini.jpg\" border=\"0\" width=\"19\" height=\"19\" /></a></td>");
+          }
+        </script>
+        <script type="text/javascript">
+          var href = document.referrer.split('?')[0];
+          var prefs = new gadgets.Prefs();
+          var announce_page = prefs.getString("announce_page_url");
+          var custom_domain = prefs.getBool("if_custom_domain");
+          if(href == "" + announce_page + ""){}
+          else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
+          else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
+          else if(prefs.getBool("if_pin_bool") == false){}
+          else{
+          document.write("<td><a href=\"//pinterest.com/pin/create/button/?url=" + encodeURIComponent(href) + "\" class=\"pin-it-button\" count-layout=\"none\" onclick=\"return pop('//pinterest.com/pin/create/button/?url=" + encodeURIComponent(href) + "')\" target=\"_blank\"><img border=\"0\" src=\"//assets.pinterest.com/images/pidgets/pin_it_button.png\" title=\"Pin It\" /></a></td>");
+          }
+        </script>
+        <script type="text/javascript">
+          var href = document.referrer.split('?')[0];
+          var prefs = new gadgets.Prefs();
+          var announce_page = prefs.getString("announce_page_url");
+          var custom_domain = prefs.getBool("if_custom_domain");
+          if(href == "" + announce_page + ""){}
+          else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
+          else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
+          else if(prefs.getBool("if_gplus_bool") == false){}
+          else{
+          document.write("<td><div class=\"g-plusone\" data-size=\"medium\" data-annotation=\"inline\" data-width=\"300\" data-href=\"" + href + "\"></div></td>");
+          }
+        </script>
+        <script type="text/javascript">
+          var href = document.referrer.split('?')[0];
+          var prefs = new gadgets.Prefs();
+          var g_id = prefs.getString("g_page_id");
+          var announce_page = prefs.getString("announce_page_url");
+          var custom_domain = prefs.getBool("if_custom_domain");
+          if(href == "" + announce_page + ""){}
+          else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
+          else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
+          else{
+          document.write("<td><div class=\"g-follow\" data-annotation=\"bubble\" data-height=\"20\" data-href=\"//plus.google.com/" + g_id + "\" data-rel=\"publisher\"></div></td>");
+          }
+        </script>
+      </tr>
+    </table>
+    <script type="text/javascript" src="//apis.google.com/js/plusone.js"></script>
+    <script type="text/javascript">
+      var href = document.referrer.split('?')[0];
+      var prefs = new gadgets.Prefs();
+      var announce_page = prefs.getString("announce_page_url");
+      var custom_domain = prefs.getBool("if_custom_domain");
+      var data_width = prefs.getString("get_data_width");
+      if(href == "" + announce_page + ""){}
+      else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
+      else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
+      else{
+      document.write("<div class=\"g-comments\" data-href=\"" + href + "\" data-width=\"" + data_width + "\" data-first_party_property=\"BLOGGER\" data-view_type=\"FILTERED_POSTMOD\"></div></div><div align=\"left\"><table style=\"border: 0px solid #dcdcdc; padding:8px 8px 8px 8px;\" width=\"" + data_width + "\"><tr>");
+      }
+    </script>
+    <script type="text/javascript">
+      var href = document.referrer.split('?')[0];
+      var prefs = new gadgets.Prefs();
+      var via = prefs.getString("via");
+      var announce_page = prefs.getString("announce_page_url");
+      var custom_domain = prefs.getBool("if_custom_domain");
+      if(href == "" + announce_page + ""){}
+      else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
+      else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
+      else if(prefs.getBool("if_twfollow_bool") == false){}
+      else{
+      document.write("<td align=\"right\"><iframe src=\"//platform.twitter.com/widgets/follow_button.html?screen_name=" + via + "\" scrolling=\"no\" frameborder=\"0\" style=\"width:300px; height:21px;\" allowTransparency=\"true\"></iframe></td>");
+      }
+    </script>
+  </body>
+</html>
+<script charset="utf-8">
+  function resize() 
+  {
+  gadgets.window.adjustHeight();
+  t = setTimeout("resize()",1000);
+  }
+  window.onload=resize();
+</script>
 ]]></Content>
 </Module>
