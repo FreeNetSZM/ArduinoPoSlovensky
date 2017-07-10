@@ -147,7 +147,7 @@
       else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
       else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
       else{
-        document.write("<div id="google_comments"></div>");
+        document.write("<div id=\"google_comments\"></div>");
         gapi.comments.render('google_comments', {
             href: href,
             width: data_width,
