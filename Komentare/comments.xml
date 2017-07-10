@@ -147,7 +147,13 @@
       else if(custom_domain && document.referrer.substr(0,24) == "http://sites.google.com/"){}
       else if(custom_domain && document.referrer.substr(0,25) == "https://sites.google.com/"){}
       else{
-        document.write("<div class=\"g-comments\" data-href=\"" + href + "\" data-width=\"" + data_width + "\" data-first_party_property=\"BLOGGER\" data-view_type=\"FILTERED_POSTMOD\"></div></div><div align=\"left\"><table style=\"border: 0px solid #dcdcdc; padding:8px 8px 8px 8px;\" width=\"" + data_width + "\"><tr>");
+        document.write("<div id="google_comments"></div>");
+        gapi.comments.render('google_comments', {
+            href: href,
+            width: data_width,
+            first_party_property: 'BLOGGER',
+            view_type: 'FILTERED_POSTMOD'
+        });
       }
     </script>
     <script type="text/javascript">
