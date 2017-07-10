@@ -5,6 +5,7 @@
   <div id="google_comments"></div>
   <script>
       var href = document.referrer.split('?')[0];
+      console.log(href);
       gapi.comments.render('google_comments', {
           href: href,
           width: '850',
