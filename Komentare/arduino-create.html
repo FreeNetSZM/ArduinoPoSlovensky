@@ -1,12 +1,10 @@
 <script src="https://apis.google.com/js/plusone.js"></script>
 <div id="comments"></div>
 <script>
-var href = window.location;
-console.log(href);    
-gapi.comments.render('comments', {
-    href: href,   
-    width: Math.round(window.innerWidth * 0.95),
-    first_party_property: 'BLOGGER',
-    view_type: 'FILTERED_POSTMOD'
-});
+    gapi.comments.render('comments', {
+        href: window.location, 
+        width: Math.round(window.innerWidth * 0.95),
+        first_party_property: 'BLOGGER',
+        view_type: 'FILTERED_POSTMOD'
+    });
 </script>
