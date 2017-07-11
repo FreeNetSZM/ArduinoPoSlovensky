@@ -32,7 +32,7 @@
   <body>  
     <div id="google_comments"></div>
     <script>
-        var href = "http://www.arduinoposlovensky.sk/IDE";
+        var href = window.location;
         console.log(href);
         gapi.comments.render('google_comments', {
             href: href,
