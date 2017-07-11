@@ -32,10 +32,10 @@
   <body>  
     <div id="google_comments"></div>
     <script>
-        var href = 'https://github.com/FreeNetSZM/ArduinoPoSlovensky/blob/gh-pages/Komentare/';
+        var href = 'https://freenetszm.github.io/ArduinoPoSlovensky/Komentare/eeprom.html';
         console.log(href);
         gapi.comments.render('google_comments', {
-            href: 'https://github.com/FreeNetSZM/ArduinoPoSlovensky/blob/gh-pages/Komentare/',
+            href: href,
             width: 850,
             first_party_property: 'BLOGGER',
             view_type: 'FILTERED_POSTMOD'
