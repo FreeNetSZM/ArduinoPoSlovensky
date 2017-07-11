@@ -1,10 +1,19 @@
-<!DOCTYPE html>
 <html>
-  <body>
-    <p id="demo"></p>
+  <head>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>  
+  </head>
+    
+  <body>  
+    <div id="google_comments"></div>
     <script>
-      document.getElementById("demo").innerHTML = 
-      "The full URL of this page is:<br>" + document.referrer.split('?')[0];;
+        var href = 'https://freenetszm.github.io/ArduinoPoSlovensky/Komentare/digital-io.html';
+        console.log(href);
+        gapi.comments.render('google_comments', {
+            href: href,
+            width: 850,
+            first_party_property: 'BLOGGER',
+            view_type: 'FILTERED_POSTMOD'
+        });
     </script>
-  </body>
+    </body>
 </html>
