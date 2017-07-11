@@ -32,7 +32,7 @@
   <body>  
     <div id="google_comments"></div>
     <script>
-        var href = window.location;
+        var href = "https://github.com/FreeNetSZM/ArduinoPoSlovensky/blob/gh-pages/Komentare/test.xml";
         console.log(href);
         gapi.comments.render('google_comments', {
             href: href,
