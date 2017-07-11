@@ -32,7 +32,7 @@
   <body>  
     <div id="google_comments"></div>
     <script>
-        var href = window.location;
+        var href = window.location.split('?')[0];;
         console.log(href);
         gapi.comments.render('google_comments', {
             href: href,
