@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Module>
+<ModulePrefs title="Google+ Comments"
+ height="700"
+ description="Google+ Comments gadget includes google+ widget plugin for comments, Facebook share button, Linkedin Share button, Twitter tweet button, Twitter follow button, and Google plus one button."
+ author="Simon Garcia"
+ author_email="admin@joinrsite.com"
+ author_affiliation="joinrsite.com"
+ screenshot="https://sites.google.com/a/joinrsite.com/gadgets/get/google-comments/image.jpg"
+ thumbnail="https://sites.google.com/a/joinrsite.com/gadgets/get/google-comments/image.jpg"
+ title_url="http://gadgets.joinrsite.com/get/google-comments"
+ directory_title="Google+ Comments">
+  <Require feature="dynamic-height" />
+</ModulePrefs>
+<UserPref name="if_custom_domain" display_name="Will not display gadget on (sites.google.com) URLs if checked. Displays only on custom domain." datatype="bool" default_value="false"/>
+<UserPref name="announce_page_url" display_name="Will not display gadget on URL placed here. eg: Announcements page (optional)" datatype="string" required="false" default_value=""/>
+<UserPref name="if_tweet_bool" display_name="Will display Twitter tweet button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
+<UserPref name="if_twfollow_bool" display_name="Will display Twitter follow button if checked.  (uncheck to not display) (username required)" datatype="bool" default_value="false"/>
+<UserPref name="via" display_name="Twitter username for via. (optional)" datatype="string" required="false" default_value=""/>
+<UserPref name="if_fbshare_bool" display_name="Will display Facebook share button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
+<UserPref name="if_inshare_bool" display_name="Will display Linkedin share button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
+<UserPref name="if_pin_bool" display_name="Will display Pin it button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
+<UserPref name="if_gplus_bool" display_name="Will display Google plus one button if checked. (uncheck to not display)" datatype="bool" default_value="true"/>
+<UserPref name="g_page_id" display_name="Google+ Page ID Number. eg: https://plus.google.com/[ID_Number]" datatype="string" required="false" default_value="+ŠášikRastislav"/>
+  <UserPref name="get_data_width" display_name="Sets the width of the comments widget." datatype="string" required="true" default_value="850"/>
+<Content type="html"><![CDATA[
+<html>
+  <head>
+    <script type="text/javascript" src="https://apis.google.com/js/plusone.js"></script>  
+  </head>
+    
+  <body>  
+    <div id="google_comments"></div>
+    <script>
+        var href = document.referrer;
+        console.log(href);
+        gapi.comments.render('google_comments', {
+            href: href,
+            width: 850,
+            first_party_property: 'BLOGGER',
+            view_type: 'FILTERED_POSTMOD'
+        });
+    </script>
+    </body>
+</html>
+<script charset="utf-8">
+  function resize() 
+  {
+  gadgets.window.adjustHeight();
+  t = setTimeout("resize()",1000);
+  }
+  window.onload=resize();
+</script>
+]]></Content>
+</Module>
