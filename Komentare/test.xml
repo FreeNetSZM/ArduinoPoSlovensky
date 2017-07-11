@@ -32,10 +32,10 @@
   <body>  
     <div id="google_comments"></div>
     <script>
-        var href = document.referrer.split('?')[0];;
+        var href = document.referrer.split('?')[0];
         console.log(href);
         gapi.comments.render('google_comments', {
-            href: href,
+            href: document.referrer.split('?')[0],
             width: 850,
             first_party_property: 'BLOGGER',
             view_type: 'FILTERED_POSTMOD'
