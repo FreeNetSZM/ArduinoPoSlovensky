@@ -35,7 +35,7 @@
         var href = "https://github.com/FreeNetSZM/ArduinoPoSlovensky/blob/gh-pages/Komentare/";
         console.log(href);
         gapi.comments.render('google_comments', {
-            href: href,
+            href: "https://github.com/FreeNetSZM/ArduinoPoSlovensky/blob/gh-pages/Komentare/",
             width: 850,
             first_party_property: 'BLOGGER',
             view_type: 'FILTERED_POSTMOD'
