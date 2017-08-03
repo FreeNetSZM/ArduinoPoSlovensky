@@ -1,0 +1,793 @@
+[
+    {
+        "ID": "1159957222",
+        "nazov": "MQ138",
+        "popis": "Senzor MQ138 detekuje Benzene, Toluene, Alcohol, Acetone, Propane, Formaldehyde, Hydrogen",
+        "link": "https://s.click.aliexpress.com/e/yVN7eeq",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "1159957338",
+        "nazov": "MQ131",
+        "popis": "Senzor MQ131 detekuje koncentráciu ozónu (O3)",
+        "link": "https://s.click.aliexpress.com/e/UVjmEY3",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "1956237804",
+        "nazov": "GY-282 HMC5983",
+        "popis": "Trojosý magnetický elektronický kompas GY-282 HMC5983 (nahrádza GY-273 HMC5883L), napájanie 3V~5V DC, výstup I2C alebo SPI",
+        "link": "http://s.click.aliexpress.com/e/aAyfMBm",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "1967750200",
+        "nazov": "Arduino MEGA2560 s USB káblom ",
+        "popis": "Arduino MEGA2560 R3 s čipom ATmega2560-16AU CH340G dodávaný s USB káblom",
+        "link": "https://s.click.aliexpress.com/e/zFUBIyB",
+        "kategoria": "H10,H14,S101,"
+    },
+    {
+        "ID": "1988431775",
+        "nazov": "GPS GY-GPS6MV2 Ublox NEO-6M",
+        "popis": "GPS senzor s integrovanou EEPROM, napájanie 3V~5V DC, výstup sériový RX-TX 9600 bps",
+        "link": "https://s.click.aliexpress.com/e/nAEmMfE",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "32690066582",
+        "nazov": "Logic Level Shifter - 4 channel (10ks)",
+        "popis": "Logický konvertor úrovne je malé zariadenie, ktoré bezpečne zníži nadol 5V signály na 3.3V signál a opačne zvýši z 3.3V na 5V signál v rovnakom čase. Je obojsmerný.",
+        "link": "https://s.click.aliexpress.com/e/NfUVr3v",
+        "kategoria": "P52,S201,"
+    },
+    {
+        "ID": "32712032179",
+        "nazov": "DS18B20 modul",
+        "popis": "Senzor DS18B20 Dallas modul na meranie teploty -55°C~125°C (±0.5°C). Tento model má aj LED indikáciu napájania. Pull-up rezistor je integrovaný.",
+        "link": "http://s.click.aliexpress.com/e/fubI2B2",
+        "kategoria": "P51,S501,"
+    },
+    {
+        "ID": "32237197225",
+        "nazov": "DHT22 modul",
+        "popis": "Senzor DHT-22 modul na meranie teploty -40~80°C (±0.5°C) a vlhkosti 0%~100%RH (±2%RH).",
+        "link": "http://s.click.aliexpress.com/e/fEUrV3R",
+        "kategoria": "P50,S501,"
+    },
+    {
+        "ID": "32569654890",
+        "nazov": "DHT11 modul",
+        "popis": "Senzor DHT-11 modul na meranie teploty 0~50°C (±2°C) a vlhkosti 20%~80%RH (±5%RH).",
+        "link": "https://s.click.aliexpress.com/e/EEQrrNZ",
+        "kategoria": "P50,S501,"
+    },
+    {
+        "ID": "32821281025",
+        "nazov": "Arduino UNO R3 DIP s USB káblom",
+        "popis": "Toto je to Arduino UNO R3, ktoré potrebujete pre svoje projekty",
+        "link": "http://s.click.aliexpress.com/e/q37UJqJ",
+        "kategoria": "H11,S101,"
+    },
+    {
+        "ID": "32615358820",
+        "nazov": "Arduino UNO s USB káblom",
+        "popis": "Arduino UNO R3 s čipom Atmega 328p v DIP púzdre dodávaný s USB káblom",
+        "link": "http://s.click.aliexpress.com/e/AemUBMN",
+        "kategoria": "H11,S101,"
+    },
+    {
+        "ID": "32664780300",
+        "nazov": "Arduino UNO SMD bez USB káblu",
+        "popis": "Arduino UNO R3 s čipom Atmega 328p tentokrát v SMD verzii",
+        "link": "https://s.click.aliexpress.com/e/fIIUbYR",
+        "kategoria": "H11,S101,"
+    },
+    {
+        "ID": "32730802158",
+        "nazov": "Arduino UNO SMD s USB káblom",
+        "popis": "Arduino UNO R3 s čipom Atmega 328p v SMD verzii vrátane USB kábla",
+        "link": "http://s.click.aliexpress.com/e/RJMFYrN",
+        "kategoria": "H11,S101,"
+    },
+    {
+        "ID": "32779555847",
+        "nazov": "Arduino UNO s transparentnou krabičkou",
+        "popis": "Arduino UNO R3 s čipom Atmega 328p dodávaný spolu s transparentnou krabičkou",
+        "link": "https://s.click.aliexpress.com/e/2vBeyFE",
+        "kategoria": "H11,S101"
+    },
+    {
+        "ID": "32716019942",
+        "nazov": "Starter Kit Arduino UNO",
+        "popis": "Štartovací balíček Arduino UNO R3, USB kábel, nepájivé kontaktné pole, prepojovacie vodiče, konektor na 9V batériu",
+        "link": "http://s.click.aliexpress.com/e/v3J2VvZ",
+        "kategoria": "P52,H10,H11,S101,"
+    },
+    {
+        "ID": "32430814009",
+        "nazov": "Starter Kit Arduino UNO mini",
+        "popis": "Rozšírená štartovacia sada Arduino UNO R3 doplnené o farebné diódy, odpory, tlačítka, fotoodpor, mikrofón,..",
+        "link": "https://s.click.aliexpress.com/e/AMZvna2",
+        "kategoria": "H11,S101,"
+    },
+    {
+        "ID": "32714696336",
+        "nazov": "Starter Kit Arduino UNO Upgraded version",
+        "popis": "Krabicové balenie štartovacieho balíčka s množstvom príslušenstva (displej, bzučiak, IR,  RFID, servomotor, joystick, relátko, teplomer, 74HC595, ...)",
+        "link": "http://s.click.aliexpress.com/e/3z7YJuj",
+        "kategoria": "H11,S101,"
+    },
+    {
+        "ID": "32292634631",
+        "nazov": "Arduino DUE s USB káblom",
+        "popis": "Arduino DUE R3 s čipom ARM AT91SAM3X8E 32-bit 3.3V dodávané s USB káblom",
+        "link": "http://s.click.aliexpress.com/e/qrbeqZR",
+        "kategoria": "H15,S101,"
+    },
+    {
+        "ID": "32616402213",
+        "nazov": "Arduino DUE s USB káblom",
+        "popis": "Arduino DUE R3 s čipom ARM AT91SAM3X8E 32-bit 3.3V dodávané s USB káblom",
+        "link": "https://s.click.aliexpress.com/e/6mYvFQZ",
+        "kategoria": "H10,H15,S101,"
+    },
+    {
+        "ID": "32697479857",
+        "nazov": "Arduino MEGA2560 bez USB kábla",
+        "popis": "Arduino MEGA2560 R3 s čipom ATmega2560-16AU bez USB kábla",
+        "link": "https://s.click.aliexpress.com/e/qv7aiaq",
+        "kategoria": "H14,S101,"
+    },
+    {
+        "ID": "32712829108",
+        "nazov": "Arduino MEGA2560 + Ethernet Shield W5100 a s USB káblom",
+        "popis": "Arduino MEGA2560 s čipom ATmega2560-16AU CH340G s ethernetovým shieldom W5100 a s USB káblom",
+        "link": "http://s.click.aliexpress.com/e/BI6aA6m",
+        "kategoria": "H14,S101,"
+    },
+    {
+        "ID": "32709442003",
+        "nazov": "Arduino Ethernet Shield W5100",
+        "popis": "Najpoužívanejší ethernetový shield W5100 kompatibilný pre dosky Arduino UNO, MEGA2560 s čítačkou micro-SD kariet",
+        "link": "https://s.click.aliexpress.com/e/FqZZnMV",
+        "kategoria": "H10,H16,S201,"
+    },
+    {
+        "ID": "32433189460",
+        "nazov": "Ethernet LAN Network Module SPI",
+        "popis": "Ethernetový modul ENC28J60 pre Arduino 3.3V",
+        "link": "http://s.click.aliexpress.com/e/aeI2jeQ",
+        "kategoria": "H16,S201"
+    },
+    {
+        "ID": "32668348397",
+        "nazov": "Ethernet LAN Network Module + SD Card Module",
+        "popis": "Ethernetový modul ENC28J60 a modul pre SD karty pre Arduino 3.3V",
+        "link": "http://s.click.aliexpress.com/e/ie62vRr",
+        "kategoria": "H16,S201,"
+    },
+    {
+        "ID": "32819287660",
+        "nazov": "Ethernet Shield pre Arduino Nano",
+        "popis": "Ethernetový shield s čipom ENC28J60 pre Arduino Nano",
+        "link": "http://s.click.aliexpress.com/e/BUzbUzz",
+        "kategoria": "H13,H16,S201,"
+    },
+    {
+        "ID": "32269525920",
+        "nazov": "Arduino Leonardo Pro Micro",
+        "popis": "Arduino Leonardo v malom prevedení s čipom ATmega32u4 16MHz 5V, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, bez USB káblu",
+        "link": "https://s.click.aliexpress.com/e/FeQFamy",
+        "kategoria": "H12,S101,"
+    },
+    {
+        "ID": "32310214921",
+        "nazov": "Arduino Leonardo s USB káblom",
+        "popis": "Arduino Leonardo R3 doska s čipom ATmega32u4 16MHz 5V, 32KB Flash, 2.5KB SRAM, 1KB EEPROM, s USB káblom",
+        "link": "https://s.click.aliexpress.com/e/eQnqnUZ",
+        "kategoria": "H10,H12,S101,"
+    },
+    {
+        "ID": "32636800949",
+        "nazov": "Arduino LilyPad USB",
+        "popis": "Arduino LilyPad USB s mikrokontrolérom ATmega32U4",
+        "link": "https://s.click.aliexpress.com/e/rni6yFa",
+        "kategoria": "H18,S101,"
+    },
+    {
+        "ID": "32713110917",
+        "nazov": "Arduino LilyPad Main Board",
+        "popis": "Arduino LilyPad s mikrokontrolérom ATmega328P",
+        "link": "http://s.click.aliexpress.com/e/BimiA66",
+        "kategoria": "H10,H18,S101,"
+    },
+    {
+        "ID": "32675502754",
+        "nazov": "Arduino LilyPad Coin Cell Battery Holder CR2032",
+        "popis": "Držiak batérie CR2032 pre Arduino LilyPad",
+        "link": "https://s.click.aliexpress.com/e/3Z7AuJU",
+        "kategoria": "H18,S201,"
+    },
+    {
+        "ID": "32790267245",
+        "nazov": "FTDI Basic programátor pre Arduino LilyPad Main Board",
+        "popis": "Programátor FTDI Basic 5V pre Arduino LilyPad 328",
+        "link": "https://s.click.aliexpress.com/e/3FU766u",
+        "kategoria": "H18,S201,"
+    },
+    {
+        "ID": "32624003237",
+        "nazov": "Arduino Nano bez USB káblu",
+        "popis": "Arduino Nano V3.0 doska s čipom ATmega328P bez USB káblu",
+        "link": "http://s.click.aliexpress.com/e/bUVBIuB",
+        "kategoria": "H13,S101,"
+    },
+    {
+        "ID": "32710718229",
+        "nazov": "Arduino Nano s USB káblom",
+        "popis": "Arduino Nano V3.0 doska s čipom ATmega328P s USB káblom",
+        "link": "https://s.click.aliexpress.com/e/3jMn6A6",
+        "kategoria": "P50,P51,P52,H10,H13,S101,"
+    },
+    {
+        "ID": "32380216897",
+        "nazov": "Arduino Nano",
+        "popis": "Arduino Nano V3.0 doska s čipom ATmega328P bez USB káblu",
+        "link": "http://s.click.aliexpress.com/e/JuZVNZN",
+        "kategoria": "H13,S101,"
+    },
+    {
+        "ID": "32686034526",
+        "nazov": "5ks Arduino Nano",
+        "popis": "5 kusov Arduino Nano s čipom ATmega328P bez USB káblov",
+        "link": "https://s.click.aliexpress.com/e/AeUzNjY",
+        "kategoria": "H13,S101,"
+    },
+    {
+        "ID": "32791389562",
+        "nazov": "New Original YUN controller board",
+        "popis": "Originálny YUN mikrokontrolér s dvomi procesoromi Atmega32U4 + Atheros AR9331 s ethernetom, WiFi, slotom pre micro-SD",
+        "link": "https://s.click.aliexpress.com/e/eqjiU3V",
+        "kategoria": "H17,S101,"
+    },
+    {
+        "ID": "32276884418",
+        "nazov": "Yun Shield Compatible with Arduino",
+        "popis": "YUN shield kompatibilný s doskami Arduino UNO MEGA2560 Leonardo",
+        "link": "https://s.click.aliexpress.com/e/QfQF6u3",
+        "kategoria": "H10,H17,S101,"
+    },
+    {
+        "ID": "32519232040",
+        "nazov": "New Version Yun Shield v2.4 All-in-one",
+        "popis": "YUN shield kompatibilný s doskami Arduino UNO MEGA2560 Leonardo",
+        "link": "https://s.click.aliexpress.com/e/NZV7mIE",
+        "kategoria": "H17,S201,"
+    },
+    {
+        "ID": "32464416790",
+        "nazov": "Yun Shield For Arduino",
+        "popis": "YUN shield kompatibilný s doskami Arduino UNO MEGA2560 Leonardo",
+        "link": "https://s.click.aliexpress.com/e/feuZRr3",
+        "kategoria": "H17,S201,"
+    },
+    {
+        "ID": "32323214980",
+        "nazov": "120pcs Electrolytic Capacitor",
+        "popis": "Balenie 120ks elektrolytických kondenzátorov v rozsahu  0,22μF - 470 μF (12 hodnôt po 10ks)",
+        "link": "https://s.click.aliexpress.com/e/EQRr7eQ",
+        "kategoria": "S302,"
+    },
+    {
+        "ID": "32272916262",
+        "nazov": "Set of 300pcs Ceramic Capacitor",
+        "popis": "Balenie 300ks keramických kondenzátorov v rozsahu 2pf - 100nf (30 hodnôt po 10ks)",
+        "link": "https://s.click.aliexpress.com/e/fEA2VfA",
+        "kategoria": "S302,"
+    },
+    {
+        "ID": "32554837659",
+        "nazov": "270pcs Electrolytic Capacitor Box",
+        "popis": "Balenie 270ks elektrolytických kondenzátorov v rozsahu  0,22μF - 470 μF (15 hodnôt po 10-20ks)",
+        "link": "https://s.click.aliexpress.com/e/3JaeQzj",
+        "kategoria": "S302,"
+    },
+    {
+        "ID": "32598600498",
+        "nazov": "125pcs Electrolytic Capacitor",
+        "popis": "Balenie 125ks elektrolytických kondenzátorov v rozsahu  1μF - 2200 μF (25 hodnôt po 5ks)",
+        "link": "https://s.click.aliexpress.com/e/rVjm6Im",
+        "kategoria": "S302,"
+    },
+    {
+        "ID": "32423998570",
+        "nazov": "50PCS 5 mm full-color LED RGB",
+        "popis": "Balenie 50ks RGB LED diód",
+        "link": "https://s.click.aliexpress.com/e/jaMnu3V",
+        "kategoria": "S303,"
+    },
+    {
+        "ID": "32319017219",
+        "nazov": "100pcs 1N4733A Zener Diode 5.1V 1W",
+        "popis": "Balenie 100ks Zenerových diód 1N4733A 5,1V 1W",
+        "link": "https://s.click.aliexpress.com/e/i2rrjQN",
+        "kategoria": "S303,"
+    },
+    {
+        "ID": "32328178752",
+        "nazov": "200PCS 1N4007 1A Rectifier Diode",
+        "popis": "Balenie 200ks usmerňovacích diód 1N4007 1A",
+        "link": "https://s.click.aliexpress.com/e/72b2VJm",
+        "kategoria": "S303,"
+    },
+    {
+        "ID": "32336581097",
+        "nazov": "200PCS IN5819 1A 40V Shottky Diode",
+        "popis": "Balenie 200ks Shottkyho diód IN5819 1A 40V",
+        "link": "https://s.click.aliexpress.com/e/AqnY7YV",
+        "kategoria": "S303,"
+    },
+    {
+        "ID": "32687413849",
+        "nazov": "300ks Rezistorov 10Ω - 1MΩ",
+        "popis": "Balenie 300ks rezistorov 1/4W v rozsahu 10Ω - 1MΩ s toleranciou 1% (30 hodnôt po 10ks)",
+        "link": "https://s.click.aliexpress.com/e/byj2niU",
+        "kategoria": "S301,"
+    },
+    {
+        "ID": "32766348385",
+        "nazov": "600ks Rezistorov 10Ω - 1MΩ",
+        "popis": "Balenie 600ks rezistorov 1/4W v rozsahu 10Ω - 1MΩ s toleranciou 1% (30 hodnôt po 20ks)",
+        "link": "https://s.click.aliexpress.com/e/fu3Fiaa",
+        "kategoria": "S301,"
+    },
+    {
+        "ID": "32346769802",
+        "nazov": "5ks Fotorezistorov",
+        "popis": "Balenie 5ks fotorezistorov 12mm",
+        "link": "https://s.click.aliexpress.com/e/aAIme6q",
+        "kategoria": "S301,"
+    },
+    {
+        "ID": "32545010595",
+        "nazov": "50ks Trimrov 500Ω - 1MΩ",
+        "popis": "Balenie 50ks trimrov v rozsahu 500Ω - 1MΩ (5ks z každej hodnoty) s krabičkou",
+        "link": "https://s.click.aliexpress.com/e/QRzzjAA",
+        "kategoria": "S301,"
+    },
+    {
+        "ID": "32787376478",
+        "nazov": "200ks Tranzistorov v krabičke",
+        "popis": "Mix tranzistorov BC337, BC327, 2N2222, 2N2907, 2N3904, 2N3906, S8550, S8050, C1815, A1015",
+        "link": "https://s.click.aliexpress.com/e/vj6YbIA",
+        "kategoria": "S304,"
+    },
+    {
+        "ID": "32334748407",
+        "nazov": "200ks 2N2222 Tranzistorov",
+        "popis": "Balenie 200ks tranzistorov typu 2N2222 NPN TO-92 0.6A 30V",
+        "link": "https://s.click.aliexpress.com/e/jUjQbAI",
+        "kategoria": "S304,"
+    },
+    {
+        "ID": "32704824966",
+        "nazov": "10ks IRF540N MOSFET",
+        "popis": "Balenie 10ks MOSFET IRF540N 33A 100V. Vhodné na použitie pre MOSFET Driver na ovládanie LED pásov",
+        "link": "https://s.click.aliexpress.com/e/R7ujmMf",
+        "kategoria": "S304,"
+    },
+    {
+        "ID": "32359147751",
+        "nazov": "20ks IRFZ44N MOSFET",
+        "popis": "Balenie 20ks MOSFET IRFZ44N 49A 55V",
+        "link": "https://s.click.aliexpress.com/e/nYvJyzB",
+        "kategoria": "S304,"
+    },
+    {
+        "ID": "32359686534",
+        "nazov": "Breadboard s napájaním a s káblikmi",
+        "popis": "Nepájivé kontaktné pole s napájaním spolu s drôtmi. Toto je samotný základ pre vaše projekty.",
+        "link": "http://s.click.aliexpress.com/e/ufmyZvV",
+        "kategoria": "P50,P51,P52,H14,S401,H13"
+    },
+    {
+        "ID": "32352552830",
+        "nazov": "Breadboard veľký",
+        "popis": "Veľké nepájivé kontaktné pole s 830 dierami. Používam ho často, vojde tam Arduino Nano a kopa senzorov.",
+        "link": "http://s.click.aliexpress.com/e/BemM3fY",
+        "kategoria": "S401,"
+    },
+    {
+        "ID": "32351539119",
+        "nazov": "Breadboard malý 3ks",
+        "popis": "Malé nepájivé kontaktné pole so 400 dierami na menšie projekty. V balení sú hneď 3ks.",
+        "link": "http://s.click.aliexpress.com/e/VnmaE2B",
+        "kategoria": "S401,"
+    },
+    {
+        "ID": "32810524497",
+        "nazov": "Breadboard napájanie",
+        "popis": "Napájací modul pre nepájivé kontaktné pole. Vstup 7-12V alebo USB, voliteľný výstup 3.3V a 5V. Veľmi užitočná vec.",
+        "link": "http://s.click.aliexpress.com/e/v3vF27m",
+        "kategoria": "S401,"
+    },
+    {
+        "ID": "32670009643",
+        "nazov": "Breadboard kábliky 65ks",
+        "popis": "Prepojovacie kábliky do nepájivého kontaktného poľa rôznych dĺžok, spolu 65ks. Bez nich sa nezaobídete.",
+        "link": "https://s.click.aliexpress.com/e/mqfi6ub",
+        "kategoria": "S401,"
+    },
+    {
+        "ID": "32454217006",
+        "nazov": "Breadboard kábliky 120ks",
+        "popis": "Prepojovacie kábliky 10cm do nepájivého kontaktného poľa alebo aj na pripojenie senzorov, po 40ks z Male-Female  Male-Male  Female-Female",
+        "link": "https://s.click.aliexpress.com/e/fAEQna6",
+        "kategoria": "S401,"
+    },
+    {
+        "ID": "32780770068",
+        "nazov": "PCB UNO Shield Board",
+        "popis": "Prototypovacia PCB doska na vytvorenie si vlastného shieldu pre Arduino UNO R3",
+        "link": "https://s.click.aliexpress.com/e/mQV37QF",
+        "kategoria": "S401,"
+    },
+    {
+        "ID": "32687217938",
+        "nazov": "Univerzálny prototypovací obojstranný plošný spoj",
+        "popis": "Existujú aj takéto univerzálne plošáky pre hotové projekty, stačí už len uložiť do vhodnej krabičky. V balení 4ks 5x7 4x6 3x7 2x8 cm",
+        "link": "https://s.click.aliexpress.com/e/MZJuNjm",
+        "kategoria": "S401,"
+    },
+    {
+        "ID": "32724478308",
+        "nazov": "2.54 Pin Header Connector Strip",
+        "popis": "Sada konektorov do univerzálnej PCB dosky 20ks (10 párov 1x40 jednoradové Male + Female)",
+        "link": "https://s.click.aliexpress.com/e/rnAyJuV",
+        "kategoria": "S401,"
+    },
+    {
+        "ID": "32658610085",
+        "nazov": "Project Box Black 103x64x40mm",
+        "popis": "Čierna krabička na projekty z ABS plastu",
+        "link": "https://s.click.aliexpress.com/e/Zfaynie",
+        "kategoria": "S401,"
+    },
+    {
+        "ID": "32690292120",
+        "nazov": "DHT11",
+        "popis": "Senzor DHT-11 na meranie teploty 0~50°C (±2°C) a vlhkosti 20%~80%RH (±5%RH). Je menej presný ale zas lacný.",
+        "link": "http://s.click.aliexpress.com/e/JIAujeA",
+        "kategoria": "P50,S501,"
+    },
+    {
+        "ID": "32800905222",
+        "nazov": "DHT22",
+        "popis": "Senzor DHT-22 na meranie teploty -40~80°C (±0.5°C) a vlhkosti 0%~100%RH (±2%RH). Je už presnejší, na bežné meranie teploty a vlhkosti postačuje.",
+        "link": "http://s.click.aliexpress.com/e/iq76uZF",
+        "kategoria": "P50,S501,"
+    },
+    {
+        "ID": "32587460354",
+        "nazov": "DS18B20 modul",
+        "popis": "Senzor DS18B20 Dallas na meranie teploty -55°C~125°C (±0.5°C). Vynikajúci senzor na meranie teploty s integrovaným pull-up rezistorom.",
+        "link": "https://s.click.aliexpress.com/e/QRjiIIy",
+        "kategoria": "P51,S501,"
+    },
+    {
+        "ID": "32736388682",
+        "nazov": "5ks DALLAS DS18B20",
+        "popis": "Senzor DS18B20 Dallas 5ks, meranie teploty -55°C~125°C (±0.5°C)",
+        "link": "https://s.click.aliexpress.com/e/Mvfa6Qb",
+        "kategoria": "P51,S501,"
+    },
+    {
+        "ID": "32506864979",
+        "nazov": "2ks DALLAS DS18B20 vodotesný",
+        "popis": "Vodotesný senzor DS18B20 Dallas 2ks, meranie teploty -55°C~125°C (±0.5°C) napr. vonku alebo v bazéne, studni, ...",
+        "link": "https://s.click.aliexpress.com/e/beEa2FI",
+        "kategoria": "P51,S501,"
+    },
+    {
+        "ID": "32661117200",
+        "nazov": "BME280 5V",
+        "popis": "Senzor BME280 na meranie tlaku, teploty a vlhkosti - 3 senzory v jednom. Využíva I2C zbernicu. Napájanie 5V.",
+        "link": "https://s.click.aliexpress.com/e/Mbuvnme",
+        "kategoria": "P52,S502,"
+    },
+    {
+        "ID": "32803623878",
+        "nazov": "BME280 3.3V",
+        "popis": "Senzor BME280 na meranie tlaku, teploty a vlhkosti - 3 senzory v jednom. Využíva I2C alebo SPI zbernicu. Napájanie 3,3V.",
+        "link": "https://s.click.aliexpress.com/e/zvBauNb",
+        "kategoria": "P52,S502,"
+    },
+    {
+        "ID": "32767770222",
+        "nazov": "BMP280 5V",
+        "popis": "Senzor BME280 tlaku a teploty. Používa I2C zbernicu. Napájanie 5V",
+        "link": "http://s.click.aliexpress.com/e/yzBY3Z7",
+        "kategoria": "P52,S502,"
+    },
+    {
+        "ID": "32661523638",
+        "nazov": "BMP280 3.3V",
+        "popis": "Senzor BME280 tlaku a teploty. Používa I2C alebo SPI zbernicu. Napájanie 3,3V",
+        "link": "https://s.click.aliexpress.com/e/EUBAqvr",
+        "kategoria": "P52,S502,"
+    },
+    {
+        "ID": "32571982425",
+        "nazov": "Anemometer/360° Wind Speed Sensor",
+        "popis": "Senzor na meranie rýchlosti vetra. Napájanie 7~24VDC, výstupný signál 0~5V pri 0~32.4m/s (±1m/s)",
+        "link": "https://s.click.aliexpress.com/e/mI2zrRB",
+        "kategoria": "S502,"
+    },
+    {
+        "ID": "32674800183",
+        "nazov": "Anemometer/360° Wind Direction Sensor",
+        "popis": "Senzor na meranie smeru vetra. Napájanie 7~24VDC, výstupný signál 0.4-2V pri 0~360°",
+        "link": "https://s.click.aliexpress.com/e/zvRzzvz",
+        "kategoria": "S502,"
+    },
+    {
+        "ID": "32359670802",
+        "nazov": "MQ2 Sensor",
+        "popis": "Senzor MQ-2 podľa výrobcu umožňuje detekovať prítomnosť horľavých plynov, medzi ktoré patrí napríklad zemný plyn (LPG), metán, bután, alkohol, propán či vodík.",
+        "link": "http://s.click.aliexpress.com/e/fIQ7a2v",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "32424728976",
+        "nazov": "MQ3 Sensor",
+        "popis": "Senzor MQ-3 je vysoko citlivý na alkohol a etanol",
+        "link": "http://s.click.aliexpress.com/e/vZJUJau",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "32424026099",
+        "nazov": "MQ4 Sensor",
+        "popis": "Senzor MQ-4 je určený na meranie prítomnosti metánu, zemný plyn (CNG)",
+        "link": "http://s.click.aliexpress.com/e/eaiqRvV",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "32428057722",
+        "nazov": "MQ5 Sensor",
+        "popis": "Senzor MQ-5 detekuje LPG (skvapalnený ropný plyn, propán-bután), zemný plyn (70-90% CH4), svietiplyn",
+        "link": "http://s.click.aliexpress.com/e/QJIE6uz",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "32428105748",
+        "nazov": "MQ6 Sensor",
+        "popis": "Senzor MQ-6 detekuje LPG (skvapalneny ropný plyn, propán-bután), Propán C3H8, Isobután C4H10 (methylpropán, R-600a)",
+        "link": "http://s.click.aliexpress.com/e/n2fEEau",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "32430204228",
+        "nazov": "MQ7 Sensor",
+        "popis": "Senzor MQ-7 detekuje oxid uhoľnatý CO (carbon monoxide)",
+        "link": "http://s.click.aliexpress.com/e/MjQJYnm",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "32428085494",
+        "nazov": "MQ8 Sensor",
+        "popis": "Senzor MQ-8 detekuje vodík H2 (hydrogen) ",
+        "link": "http://s.click.aliexpress.com/e/iAqZrJm",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "32428049984",
+        "nazov": "MQ9 Sensor",
+        "popis": "Senzor MQ-9 detekuje oxid uhoľnatý CO (carbon monoxide), horlavé plyny: svietiplyn, skvapalnený plyn (LPG)",
+        "link": "http://s.click.aliexpress.com/e/Nvv7yVB",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "32428097146",
+        "nazov": "MQ135 Sensor",
+        "popis": "Senzor kvality vzduchu MQ135 detekuje oxid uhličitý CO2 (carbon dioxide), Amoniak NH3, Oxidy dusíku NOx, Benzen, Alkohol, dym",
+        "link": "http://s.click.aliexpress.com/e/FYF2bm2",
+        "kategoria": "s503,"
+    },
+    {
+        "ID": "32436270993",
+        "nazov": "Sada MQ2 MQ3 MQ4 MQ5 MQ6 MQ7 MQ7 MQ8 MQ9 MQ135",
+        "popis": "Tu je sada senzorov MQ-2, MQ-3, MQ-4, MQ-5, MQ-6, MQ-7, MQ-8, MQ-9, MQ-135",
+        "link": "http://s.click.aliexpress.com/e/eiE2N7Y",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "32561854236",
+        "nazov": "MQ136",
+        "popis": "Senzor MQ136 detekuje sirovodík SnO2 (hydrogen sulfide)",
+        "link": "https://s.click.aliexpress.com/e/3bUzzN7",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "32345788430",
+        "nazov": "MQ137",
+        "popis": "Senzor MQ136 detekuje amoniak",
+        "link": "https://s.click.aliexpress.com/e/jeY7Iu7",
+        "kategoria": "S503,"
+    },
+    {
+        "ID": "32354930080",
+        "nazov": "PIR HC-SR501",
+        "popis": "Pohybový senzor PIR HC-SR501. Napájanie 4.5V~20V DC, výstup 3.3V, dosah max 7m, uhol detekcie < 100°",
+        "link": "http://s.click.aliexpress.com/e/3F2vfEM",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "32681564965",
+        "nazov": "PIR mini HC-SR505",
+        "popis": "Pohybový senzor PIR mini HC-SR505. Napájanie 4.5V~20V DC, výstup 3.3V, dosah 3m, uhol detekcie < 100°",
+        "link": "https://s.click.aliexpress.com/e/RFeI2be",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "32607557018",
+        "nazov": "GY-273 HMC5883L",
+        "popis": "Trojosý magnetický elektronický kompas GY-273 HMC5883L, napájanie 3V~5V DC, výstup I2C alebo SPI",
+        "link": "https://s.click.aliexpress.com/e/YbEAqju",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "32357285978",
+        "nazov": "GY-521 MPU-6050",
+        "popis": "Trojosý akcelerometer a gyroskop GY-521 MPU-6050, napájanie 3V~5V DC, výstup I2C",
+        "link": "http://s.click.aliexpress.com/e/iI27uNJ",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "32808956268",
+        "nazov": "MMA8452Q (MMA7361)",
+        "popis": "Trojosý digitálny modul zrýchlenia (akcelerometer) a snímač naklonenia MMA8452Q (MMA7361), napájanie 3V~5V DC, výstup I2C",
+        "link": "https://s.click.aliexpress.com/e/rbeiAYN",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "32437163845",
+        "nazov": "SW-18010P vybračný senzor",
+        "popis": "Všesmerový vysoko citlivý vibračný senzor reaguje na otrasy a pri udalosti spojí po dobu jejho trvania elektrický obvod. Vhodný pre bezpečnostné a monitorovacie aplikácie.",
+        "link": "https://s.click.aliexpress.com/e/AeaMz72",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "32620323046",
+        "nazov": "Zvukový senzor (2ks)",
+        "popis": "Tento zvukový senzor poskytuje digitálny výstup OUT, teda informáciu zopnuté-nezopnuté. Hranicu pre detekciu požadovanej hladiny hluku je možné nastaviť pomocou trimra",
+        "link": "https://s.click.aliexpress.com/e/aMn6YRZ",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "32805078774",
+        "nazov": "APDS-9930 RGB & Gesture Sensor",
+        "popis": "Optický senzor priblíženia, napájanie 3.3V DC, výstup I2C. Využijete napr. pre automatické zhasnutie podsvietenia displeja,...",
+        "link": "https://s.click.aliexpress.com/e/rVJUbia",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "32793411018",
+        "nazov": "10ks spínací modul",
+        "popis": "Spínací modul, napájanie 3V~12V DC, vhodný ako senzor na dvere, okná,... ",
+        "link": "https://s.click.aliexpress.com/e/beEEU37",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "32602485648",
+        "nazov": "Microwave 5.8GHZ Radar Sensor",
+        "popis": "Mikrovlnný snímač pohybu, napájanie 3.3V~20V DC, výstup OUT TTL 3.3V, dosah 3~8m, uhol detekcie 360° (guľové)",
+        "link": "https://s.click.aliexpress.com/e/MJI6YBe",
+        "kategoria": "S504,"
+    },
+    {
+        "ID": "32378593825",
+        "nazov": "GY-302 BH1750 Light Intensity Sensor",
+        "popis": "Senzor intenzity osvetlenia, napájanie 3V~5V DC, výstup I2C v jednotkách lux, rozsah 1-65535 lx",
+        "link": "https://s.click.aliexpress.com/e/bIeAi2Z",
+        "kategoria": "S505,"
+    },
+    {
+        "ID": "32765297772",
+        "nazov": "TCS3414CS Color Recognition Detector Sensor",
+        "popis": "Senzor rozpoznáva farby, napájanie 3.3V~5V DC, výstup I2C v hodnotách RGB",
+        "link": "https://s.click.aliexpress.com/e/IqjAMz3",
+        "kategoria": "S505,"
+    },
+    {
+        "ID": "32720714031",
+        "nazov": "APDS-9960 RGB Gesture Sensor",
+        "popis": "Multifunkčný senzor umožňuje rozpoznať spektrum farieb, smery pohybu, intenzitu dopadajúceho svetla. Napájanie 3.3V, výstup I2C 0x39",
+        "link": "https://s.click.aliexpress.com/e/J2nMn2j",
+        "kategoria": "S505,"
+    },
+    {
+        "ID": "32731911963",
+        "nazov": "UVM-30A UV Detection Sensor Module",
+        "popis": "Senzor meria intenzitu UV indexu. Napájanie 3V~5V, výstup 0~1V DC, vlnová dĺžka 200nm~370nm",
+        "link": "https://s.click.aliexpress.com/e/6MFiiY3",
+        "kategoria": "S505,"
+    },
+    {
+        "ID": "32654933748",
+        "nazov": "TCS230 TCS3200D Color Module Sensor",
+        "popis": "Inteligentný senzor rozpoznávania farieb 470nm~640nm. Napájanie 3V~5V, výstup je voliteľný frekvenčný rozsah (pozri datasheet)",
+        "link": "http://s.click.aliexpress.com/e/rjEYju3",
+        "kategoria": "S505,"
+    },
+    {
+        "ID": "32380488907",
+        "nazov": "Infrared Flame Detection Sensor 5ks",
+        "popis": "Infračervený snímač plameňa o vlnových dĺžkach 760 až 1100 nm, uhol 60°, možnosť meniť citlivosť, napájanie 3.3V~5V. 5ks v balení.",
+        "link": "http://s.click.aliexpress.com/e/vjq3jAe",
+        "kategoria": "S505,"
+    },
+    {
+        "ID": "32734781228",
+        "nazov": "LM393 Light Sensor Photosensitive",
+        "popis": "Svetelný senzor citlivý na svetlo, možnosť meniť citlivosť, napájanie 3.3V~5V",
+        "link": "http://s.click.aliexpress.com/e/EQVvvNB",
+        "kategoria": "S505,"
+    },
+    {
+        "ID": "32703126965",
+        "nazov": "Infrared Obstacle Avoidance Sensor",
+        "popis": "Infračervený detektor prekážok na vzdialenosť 2~30cm, uhol 35°, napájanie 3.3V~5V",
+        "link": "http://s.click.aliexpress.com/e/AQ3JeQj",
+        "kategoria": "S505,"
+    },
+    {
+        "ID": "32347747831",
+        "nazov": "ACS712 5A Hall Current Sensor",
+        "popis": "Prúdový senzor ACS712 funguje na princípe Hallovho javu, napájanie 5V, max meraný prúd 5A AC/DC",
+        "link": "http://s.click.aliexpress.com/e/nqFyBAM",
+        "kategoria": "S506,"
+    },
+    {
+        "ID": "32348760733",
+        "nazov": "ACS712 20A Hall Current Sensor",
+        "popis": "Prúdový senzor ACS712 funguje na princípe Hallovho javu, napájanie 5V, max meraný prúd 20A AC/DC",
+        "link": "https://s.click.aliexpress.com/e/MrVrvzv",
+        "kategoria": "S506,"
+    },
+    {
+        "ID": "32262304510",
+        "nazov": "WCS1800 35A Hall Current Sensor",
+        "popis": "Prúdový senzor WCS1800 funguje na princípe Hallovho javu, napájanie 5V, max meraný prúd ±35A DC a 25A AC",
+        "link": "https://s.click.aliexpress.com/e/Qb2J66Q",
+        "kategoria": "S506,"
+    },
+    {
+        "ID": "32435827879",
+        "nazov": "SCT-013 30A AC Current Transformer Sensor",
+        "popis": "Prúdový transformátor SCT-013-030, meraný prúd max 30A AC, výstup v rozsahu 0-1V AC, dĺžka kábla 1m",
+        "link": "https://s.click.aliexpress.com/e/eu7EQzn",
+        "kategoria": "S506,"
+    },
+    {
+        "ID": "32661926112",
+        "nazov": "MAX471 Voltage Current Sensor",
+        "popis": "Ampérmeter a voltmeter. Napájanie 3.3V~5V, meraný prúd max 3A DC, merané napätie 3~25V (pri 5V) alebo 3~16.5V (pri 3.3V)",
+        "link": "https://s.click.aliexpress.com/e/V3byZZv",
+        "kategoria": "S506,"
+    },
+    {
+        "ID": "32350381068",
+        "nazov": "5pcs SYB-170 Mini Breadboard",
+        "popis": "Mini nepájivé kontaktné pole so 170 dierami na menšie projekty. V balení 5ks, na výber sú rôzne farby.",
+        "link": "http://s.click.aliexpress.com/e/YZnUBe2",
+        "kategoria": "S401,"
+    },
+    {
+        "ID": "32694787815",
+        "nazov": "INA219 I2C Current Power Supply Monitoring Sensor",
+        "popis": "Senzor INA219 meria prúd, napätie a výkon. Napájanie 3~5V, meraný prúd max 3.2A DC, merané napätie 0~26V, výstup I2C",
+        "link": "https://s.click.aliexpress.com/e/7UzBMje",
+        "kategoria": "S506,"
+    }
+]
