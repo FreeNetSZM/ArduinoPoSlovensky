@@ -33,7 +33,7 @@ function ProduktID() {
         document.getElementById("KUP-" + id).href = name[id][2];
         
         (function(id) {         
-            $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,evaluateScore&localCurrency=EUR&productId=' +id, function(data) {
+            $.getJSON('https://gw.api.alibaba.com/openapi/param2/2/portals.open/api.getPromotionProductDetail/38404?fields=salePrice,discount,evaluateScore&productId=' +id, function(data) {
               if (data.result == undefined) {document.getElementById("PRICE-" + id).innerHTML = "Dočasne nedostupné &nbsp&nbsp";}
                 else {
                     if (data.result.discount == "0%") {document.getElementById("PRICE-" + id).innerHTML = data.result.salePrice + "&nbsp&nbsp";}
