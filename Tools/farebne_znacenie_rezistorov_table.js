@@ -10,7 +10,7 @@
             var table = "<table class='table'><form name='output'>"
             table += "<tr><th align=middle>Hodnota odporu:</th>"
             table += " <th align='middle'><input type='text' name='result' size=20 onFocus='this.blur()'>"
-            table += "</th></tr><tr><td colspan=2>&nbsp;"
+            table += "</th></tr><tr class='text-center'><td colspan=2>&nbsp;"
             table += "<img SRC='https://sites.google.com/site/arduinoposlovensky/nastroje/farebne-znacenie-odporov/resleft.gif' width=127 height=182><img" +
                 " src='https://sites.google.com/site/arduinoposlovensky/nastroje/farebne-znacenie-odporov/" + tensColor + ".gif' name='tens' width=21 height=182><img" +
                 " src='https://sites.google.com/site/arduinoposlovensky/nastroje/farebne-znacenie-odporov/" + onesColor + ".gif' name='ones' width=21 height=182><img" +
