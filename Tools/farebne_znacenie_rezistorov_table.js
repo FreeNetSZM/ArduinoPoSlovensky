@@ -7,7 +7,7 @@
             var multColor = form.multiplierSelect.options[multDigit].text
             var tolDigit = form.toleranceSelect.selectedIndex
             var tolColor = form.toleranceSelect.options[tolDigit].text
-            var table = "<table class="table"><form name='output'>"
+            var table = "<table class='table'><form name='output'>"
             table += "<tr><th style='padding-bottom: 10px;' align=middle>Hodnota odporu:</th>"
             table += " <th style='padding-bottom: 10px;'align='middle'><input type='text' name='result' size=20 onFocus='this.blur()'>"
             table += "</th></tr><tr><td colspan=2>&nbsp;"
