@@ -1,4 +1,3 @@
-# ArduinoPoSlovensky.sk
-Arduino po slovensky
+www.arduinoposlovensky.sk
 
-Pomocné súbory k webu www.arduinoposlovensky.sk
+Pomocné súbory k webu 
